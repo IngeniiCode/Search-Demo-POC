@@ -1,0 +1,50 @@
+/*  B O D Y   T A L K   */
+body {
+  background-color: #2f333f;
+  /*background-color: #680000;*/
+  /*background-color: #580000;*/
+  color: #f8f8f8;
+  padding: 0;
+  margin: 0;
+  font: 8pt Verdana, 'Open Sans', Helvetica, Franklin Gothic Medium, Lucida Grande, sans-serif;
+}
+
+/*  M A I N   D I V S   */
+#head {
+  clear: both !important;
+  /*height: 75px; */
+  padding: 6px;
+  margin: 0;
+  font-size: 110%;
+}
+#main {
+  clear: both !important;
+  padding: 6px;
+  background-color: #f8f8f8;
+  color: #2E3037;
+  height: auto; 
+  overflow: hidden; 
+}
+#foot {
+  clear: both !important;
+  padding: 6px;
+  background-color: inherit; 
+  height: auto;
+  font-size: 80%;
+}
+
+/*  L I N K   D E F * C K I N G   */
+a {  text-decoration: none; color: inherit; font-weight: bold; }
+
+/*  H E A D I N G   E N H A N C E M E N T S  */
+h1, h2, h3, h4, h5, h6 { font-family: Orbitron, Days One, Impact, Charcoal, sans-serif; }
+h1, h2, h3, h4, h5, h6 { font-family: Syncopate, Orbitron, Days One, Impact, Charcoal, sans-serif; }
+.title {  font-family: Syncopate, Orbitron, Days One, Impact, Charcoal, sans-serif; }
+
+#noscript { 
+  -webkit-border-radius: 8px;
+  border-radius: 8px;
+  border: 2px solid red;
+  padding: 6px; 
+  background-color: orange; 
+}

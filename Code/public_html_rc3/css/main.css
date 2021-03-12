@@ -1,0 +1,79 @@
+#main_body {
+  clear: both;
+  margin: 2px 0px;
+  overflow: hidden;
+   -webkit-border-radius: 8px; border-radius: 8px; border: 1px solid #E8E8E8; padding: 4px 4px;
+  background-image: -webkit-gradient(
+    linear,
+    right bottom,
+    left top,
+    color-stop(0.39, #E8E8E8),
+    color-stop(0.84, #FFFFFF)
+  );
+  background-image: -o-linear-gradient(left top, #E8E8E8 39%, #FFFFFF 84%);
+  background-image: -moz-linear-gradient(left top, #E8E8E8 39%, #FFFFFF 84%);
+  background-image: -webkit-linear-gradient(left top, #E8E8E8 39%, #FFFFFF 84%);
+  background-image: -ms-linear-gradient(left top, #E8E8E8 39%, #FFFFFF 84%);
+  background-image: linear-gradient(to left top, #E8E8E8 39%, #FFFFFF 84%);
+}
+
+#contact1 {
+  margin: 2px 0px;
+  overflow: hidden;
+  -webkit-border-radius: 8px; 
+  border-radius: 8px; 
+  border: 1px solid #ccc; 
+  padding: 4px 4px;
+  background-image: -webkit-gradient(
+    linear,
+    right bottom,
+    left top,
+    color-stop(0.39, #ccc),
+    color-stop(0.84, #eee)
+  );
+  background-image: -o-linear-gradient(left top, #ccc 39%, #eee 84%);
+  background-image: -moz-linear-gradient(left top, #ccc 39%, #eee 84%);
+  background-image: -webkit-linear-gradient(left top, #ccc 39%, #eee 84%);
+  background-image: -ms-linear-gradient(left top, #ccc 39%, #eee 84%);
+  background-image: linear-gradient(to left top, #ccc 39%, #eee 84%);
+  box-shadow: 2px 2px 2px 1px #aaa;
+}
+
+#fbfloat {
+   position: fixed;
+   top: 45px;  
+   right: 15px;
+   width: auto;
+   -webkit-border-radius: 8px; border-radius: 8px; border: 1px solid #88b; padding: 4px 4px;
+  box-shadow: 2px 2px 4px 2px #aae;
+  background-image: -webkit-gradient(
+    linear,
+    right bottom,
+    left top,
+    color-stop(0.39, #E8E8E8),
+    color-stop(0.84, #FFFFFF)
+  );
+  background-image: -o-linear-gradient(left top, #E8E8E8 39%, #FFFFFF 84%);
+  background-image: -moz-linear-gradient(left top, #E8E8E8 39%, #FFFFFF 84%);
+  background-image: -webkit-linear-gradient(left top, #E8E8E8 39%, #FFFFFF 84%);
+  background-image: -ms-linear-gradient(left top, #E8E8E8 39%, #FFFFFF 84%);
+  background-image: linear-gradient(to left top, #E8E8E8 39%, #FFFFFF 84%);
+}
+
+#fbfloat button { padding: 0px; margin: 0px; border: 0px; background-color: inherit; }
+#fbfloat button .reply { display: none; }
+#fbfloat button:hover .reply { display: inline; }
+#fbfloat button:hover .request { display: none; }
+
+/* Width Percentage Modifiers */
+
+p10  { width: 10%; }
+p20  { width: 20%; }
+p30  { width: 30%; }
+p40  { width: 40%; }
+p50  { width: 50%; }
+p60  { width: 60%; }
+p70  { width: 70%; }
+p80  { width: 80%; }
+p90  { width: 90%; }
+p100 { width: 100%; }

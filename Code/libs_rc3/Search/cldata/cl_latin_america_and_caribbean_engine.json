@@ -1,0 +1,334 @@
+{
+    "Argentina": {
+        "buenosaires": {
+            "name": "Buenos Aires",
+            "geo": {
+                "lat": -34.6037232,
+                "lng": -58.3815931
+            }
+        }
+    },
+    "Bolivia": {
+        "lapaz": {
+            "name": "Bolivia",
+            "geo": {
+                "lat": -16.290154,
+                "lng": -63.588653
+            }
+        }
+    },
+    "Brazil": {
+        "belohorizonte": {
+            "name": "Belo Horizonte",
+            "geo": {
+                "lat": -19.9166813,
+                "lng": -43.9344931
+            }
+        },
+        "brasilia": {
+            "name": "Brasilia",
+            "geo": {
+                "lat": -15.7942287,
+                "lng": -47.8821658
+            }
+        },
+        "curitiba": {
+            "name": "Curitiba",
+            "geo": {
+                "lat": -25.4289541,
+                "lng": -49.267137
+            }
+        },
+        "fortaleza": {
+            "name": "Fortaleza",
+            "geo": {
+                "lat": -3.7318616,
+                "lng": -38.5266704
+            }
+        },
+        "portoalegre": {
+            "name": "Porto Alegre",
+            "geo": {
+                "lat": -30.0346471,
+                "lng": -51.2176584
+            }
+        },
+        "recife": {
+            "name": "Recife",
+            "geo": {
+                "lat": -8.0578381,
+                "lng": -34.8828969
+            }
+        },
+        "rio": {
+            "name": "Rio De Janeiro",
+            "geo": {
+                "lat": -22.9068467,
+                "lng": -43.1728965
+            }
+        },
+        "salvador": {
+            "name": "Salvador, Bahia",
+            "geo": {
+                "lat": -12.9730401,
+                "lng": -38.502304
+            }
+        },
+        "saopaulo": {
+            "name": "Sao Paulo",
+            "geo": {
+                "lat": -23.5505199,
+                "lng": -46.6333094
+            }
+        }
+    },
+    "Caribbean Islands": {
+        "caribbean": {
+            "name": "Caribbean Islands",
+            "geo": {
+                "lat": 21.4691137,
+                "lng": -78.6568942
+            }
+        }
+    },
+    "Chile": {
+        "santiago": {
+            "name": "Chile",
+            "geo": {
+                "lat": -35.675147,
+                "lng": -71.542969
+            }
+        }
+    },
+    "Colombia": {
+        "colombia": {
+            "name": "Colombia",
+            "geo": {
+                "lat": 4.570868,
+                "lng": -74.297333
+            }
+        }
+    },
+    "Costa Rica": {
+        "costarica": {
+            "name": "Costa Rica",
+            "geo": {
+                "lat": 9.748917,
+                "lng": -83.753428
+            }
+        }
+    },
+    "Dominican Republic": {
+        "santodomingo": {
+            "name": "Dominican Republic",
+            "geo": {
+                "lat": 18.735693,
+                "lng": -70.162651
+            }
+        }
+    },
+    "Ecuador": {
+        "quito": {
+            "name": "Ecuador",
+            "geo": {
+                "lat": -1.831239,
+                "lng": -78.183406
+            }
+        }
+    },
+    "El Salvador": {
+        "elsalvador": {
+            "name": "El Salvador",
+            "geo": {
+                "lat": 13.794185,
+                "lng": -88.89653
+            }
+        }
+    },
+    "Guatemala": {
+        "guatemala": {
+            "name": "Guatemala",
+            "geo": {
+                "lat": 14.613333,
+                "lng": -90.535278
+            }
+        }
+    },
+    "Mexico": {
+        "acapulco": {
+            "name": "Acapulco",
+            "geo": {
+                "lat": 16.863611,
+                "lng": -99.8825
+            }
+        },
+        "bajasur": {
+            "name": "Baja California Sur",
+            "geo": {
+                "lat": 26.0444446,
+                "lng": -111.6660725
+            }
+        },
+        "chihuahua": {
+            "name": "Chihuahua",
+            "geo": {
+                "lat": 28.6329957,
+                "lng": -106.0691004
+            }
+        },
+        "juarez": {
+            "name": "Ciudad Juarez",
+            "geo": {
+                "lat": 31.6903638,
+                "lng": -106.4245478
+            }
+        },
+        "guadalajara": {
+            "name": "Guadalajara",
+            "geo": {
+                "lat": 20.6596988,
+                "lng": -103.3496092
+            }
+        },
+        "guanajuato": {
+            "name": "Guanajuato",
+            "geo": {
+                "lat": 21.0190145,
+                "lng": -101.2573586
+            }
+        },
+        "hermosillo": {
+            "name": "Hermosillo",
+            "geo": {
+                "lat": 29.0729673,
+                "lng": -110.9559192
+            }
+        },
+        "mazatlan": {
+            "name": "Mazatlan",
+            "geo": {
+                "lat": 23.2494148,
+                "lng": -106.4111425
+            }
+        },
+        "mexicocity": {
+            "name": "Mexico City",
+            "geo": {
+                "lat": 19.4326077,
+                "lng": -99.133208
+            }
+        },
+        "monterrey": {
+            "name": "Monterrey",
+            "geo": {
+                "lat": 25.6866142,
+                "lng": -100.3161126
+            }
+        },
+        "oaxaca": {
+            "name": "Oaxaca",
+            "geo": {
+                "lat": 17.0594169,
+                "lng": -96.7216219
+            }
+        },
+        "puebla": {
+            "name": "Puebla",
+            "geo": {
+                "lat": 19.0412967,
+                "lng": -98.2061996
+            }
+        },
+        "pv": {
+            "name": "Puerto Vallarta",
+            "geo": {
+                "lat": 20.653407,
+                "lng": -105.2253316
+            }
+        },
+        "tijuana": {
+            "name": "Tijuana",
+            "geo": {
+                "lat": 32.5149469,
+                "lng": -117.0382471
+            }
+        },
+        "veracruz": {
+            "name": "Veracruz",
+            "geo": {
+                "lat": 19.173773,
+                "lng": -96.1342241
+            }
+        },
+        "yucatan": {
+            "name": "Yucatan",
+            "geo": {
+                "lat": 20.7098786,
+                "lng": -89.0943377
+            }
+        }
+    },
+    "Nicaragua": {
+        "managua": {
+            "name": "Nicaragua",
+            "geo": {
+                "lat": 12.865416,
+                "lng": -85.207229
+            }
+        }
+    },
+    "Panama": {
+        "panama": {
+            "name": "Panama",
+            "geo": {
+                "lat": 8.983333,
+                "lng": -79.516667
+            }
+        }
+    },
+    "Peru": {
+        "lima": {
+            "name": "Peru",
+            "geo": {
+                "lat": -9.189967,
+                "lng": -75.015152
+            }
+        }
+    },
+    "Puerto Rico": {
+        "puertorico": {
+            "name": "Puerto Rico",
+            "geo": {
+                "lat": 18.220833,
+                "lng": -66.590149
+            }
+        }
+    },
+    "Uruguay": {
+        "montevideo": {
+            "name": "Montevideo",
+            "geo": {
+                "lat": -34.9011127,
+                "lng": -56.1645314
+            }
+        }
+    },
+    "Venezuela": {
+        "caracas": {
+            "name": "Venezuela",
+            "geo": {
+                "lat": 6.42375,
+                "lng": -66.58973
+            }
+        }
+    },
+    "Virgin Islands, U.S.": {
+        "virgin": {
+            "name": "Virgin Islands",
+            "geo": {
+                "lat": 18.335765,
+                "lng": -64.896335
+            }
+        }
+    }
+}

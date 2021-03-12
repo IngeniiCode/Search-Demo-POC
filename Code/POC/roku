@@ -1,0 +1,291 @@
+url = https://www.roku.com/channels#!details/12/netflix
+<!doctype html>
+<html lang="en" ng-app="RokuApp">
+<head>
+<!-- ip-172-31-9-190 -->
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<script type='text/javascript'>window.NREUM||(NREUM={});NREUM.info = {"agent":"js-agent.newrelic.com/nr-593.min.js","beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"2acbd9030c","applicationID":"5401060","applicationTime":41.454465,"transactionName":"JkVKFgteHlFRUA1fXQlD","queueTime":0,"ttGuid":"f4bd21c0fccba8","agentToken":null}; (window.NREUM||(NREUM={})).loader_config={xpid:"UwcBVlFUGwYEVFBSAQE="};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o?o:e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({QJf3ax:[function(t,e){function n(t){function e(e,n,a){t&&t(e,n,a),a||(a={});for(var c=s(e),f=c.length,u=i(a,o,r),d=0;f>d;d++)c[d].apply(u,n);return u}function a(t,e){f[t]=s(t).concat(e)}function s(t){return f[t]||[]}function c(){return n(e)}var f={};return{on:a,emit:e,create:c,listeners:s,_events:f}}function r(){return{}}var o="nr@context",i=t("gos");e.exports=n()},{gos:"7eSDFh"}],ee:[function(t,e){e.exports=t("QJf3ax")},{}],3:[function(t){function e(t){try{i.console&&console.log(t)}catch(e){}}var n,r=t("ee"),o=t(1),i={};try{n=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(i.console=!0,-1!==n.indexOf("dev")&&(i.dev=!0),-1!==n.indexOf("nr_dev")&&(i.nrDev=!0))}catch(a){}i.nrDev&&r.on("internal-error",function(t){e(t.stack)}),i.dev&&r.on("fn-err",function(t,n,r){e(r.stack)}),i.dev&&(e("NR AGENT IN DEVELOPMENT MODE"),e("flags: "+o(i,function(t){return t}).join(", ")))},{1:23,ee:"QJf3ax"}],4:[function(t){function e(t,e,n,i,s){try{c?c-=1:r("err",[s||new UncaughtException(t,e,n)])}catch(f){try{r("ierr",[f,(new Date).getTime(),!0])}catch(u){}}return"function"==typeof a?a.apply(this,o(arguments)):!1}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function n(t){r("err",[t,(new Date).getTime()])}var r=t("handle"),o=t(6),i=t("ee"),a=window.onerror,s=!1,c=0;t("loader").features.err=!0,t(4),window.onerror=e;try{throw new Error}catch(f){"stack"in f&&(t(1),t(5),"addEventListener"in window&&t(2),window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&t(3),s=!0)}i.on("fn-start",function(){s&&(c+=1)}),i.on("fn-err",function(t,e,r){s&&(this.thrown=!0,n(r))}),i.on("fn-end",function(){s&&!this.thrown&&c>0&&(c-=1)}),i.on("internal-error",function(t){r("ierr",[t,(new Date).getTime(),!0])})},{1:10,2:7,3:11,4:3,5:9,6:24,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],5:[function(t){t("loader").features.ins=!0},{loader:"G9z0Bl"}],6:[function(t){function e(){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var n=t("ee"),r=t("handle"),o=t(1);t("loader").features.stn=!0,t(2),n.on("fn-start",function(t){var e=t[0];e instanceof Event&&(this.bstStart=Date.now())}),n.on("fn-end",function(t,e){var n=t[0];n instanceof Event&&r("bst",[n,e,this.bstStart,Date.now()])}),o.on("fn-start",function(t,e,n){this.bstStart=Date.now(),this.bstType=n}),o.on("fn-end",function(t,e){r("bstTimer",[e,this.bstStart,Date.now(),this.bstType])}),n.on("pushState-start",function(){this.time=Date.now(),this.startPath=location.pathname+location.hash}),n.on("pushState-end",function(){r("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),"addEventListener"in window.performance&&(window.performance.addEventListener("webkitresourcetimingbufferfull",function(){r("bstResource",[window.performance.getEntriesByType("resource")]),window.performance.webkitClearResourceTimings()},!1),window.performance.addEventListener("resourcetimingbufferfull",function(){r("bstResource",[window.performance.getEntriesByType("resource")]),window.performance.clearResourceTimings()},!1)),document.addEventListener("scroll",e,!1),document.addEventListener("keypress",e,!1),document.addEventListener("click",e,!1)}},{1:10,2:8,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],7:[function(t,e){function n(t){i.inPlace(t,["addEventListener","removeEventListener"],"-",r)}function r(t){return t[1]}var o=(t(1),t("ee").create()),i=t(2)(o),a=t("gos");if(e.exports=o,n(window),"getPrototypeOf"in Object){for(var s=document;s&&!s.hasOwnProperty("addEventListener");)s=Object.getPrototypeOf(s);s&&n(s);for(var c=XMLHttpRequest.prototype;c&&!c.hasOwnProperty("addEventListener");)c=Object.getPrototypeOf(c);c&&n(c)}else XMLHttpRequest.prototype.hasOwnProperty("addEventListener")&&n(XMLHttpRequest.prototype);o.on("addEventListener-start",function(t){if(t[1]){var e=t[1];"function"==typeof e?this.wrapped=t[1]=a(e,"nr@wrapped",function(){return i(e,"fn-",null,e.name||"anonymous")}):"function"==typeof e.handleEvent&&i.inPlace(e,["handleEvent"],"fn-")}}),o.on("removeEventListener-start",function(t){var e=this.wrapped;e&&(t[1]=e)})},{1:24,2:25,ee:"QJf3ax",gos:"7eSDFh"}],8:[function(t,e){var n=(t(2),t("ee").create()),r=t(1)(n);e.exports=n,r.inPlace(window.history,["pushState"],"-")},{1:25,2:24,ee:"QJf3ax"}],9:[function(t,e){var n=(t(2),t("ee").create()),r=t(1)(n);e.exports=n,r.inPlace(window,["requestAnimationFrame","mozRequestAnimationFrame","webkitRequestAnimationFrame","msRequestAnimationFrame"],"raf-"),n.on("raf-start",function(t){t[0]=r(t[0],"fn-")})},{1:25,2:24,ee:"QJf3ax"}],10:[function(t,e){function n(t,e,n){var r=t[0];"string"==typeof r&&(r=new Function(r)),t[0]=o(r,"fn-",null,n)}var r=(t(2),t("ee").create()),o=t(1)(r);e.exports=r,o.inPlace(window,["setTimeout","setInterval","setImmediate"],"setTimer-"),r.on("setTimer-start",n)},{1:25,2:24,ee:"QJf3ax"}],11:[function(t,e){function n(){f.inPlace(this,p,"fn-")}function r(t,e){f.inPlace(e,["onreadystatechange"],"fn-")}function o(t,e){return e}function i(t,e){for(var n in t)e[n]=t[n];return e}var a=t("ee").create(),s=t(1),c=t(2),f=c(a),u=c(s),d=window.XMLHttpRequest,p=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"];e.exports=a,window.XMLHttpRequest=function(t){var e=new d(t);try{a.emit("new-xhr",[],e),u.inPlace(e,["addEventListener","removeEventListener"],"-",function(t,e){return e}),e.addEventListener("readystatechange",n,!1)}catch(r){try{a.emit("internal-error",[r])}catch(o){}}return e},i(d,XMLHttpRequest),XMLHttpRequest.prototype=d.prototype,f.inPlace(XMLHttpRequest.prototype,["open","send"],"-xhr-",o),a.on("send-xhr-start",r),a.on("open-xhr-start",r)},{1:7,2:25,ee:"QJf3ax"}],12:[function(t){function e(t){if("string"==typeof t&&t.length)return t.length;if("object"!=typeof t)return void 0;if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if("undefined"!=typeof FormData&&t instanceof FormData)return void 0;try{return JSON.stringify(t).length}catch(e){return void 0}}function n(t){var n=this.params,r=this.metrics;if(!this.ended){this.ended=!0;for(var i=0;c>i;i++)t.removeEventListener(s[i],this.listener,!1);if(!n.aborted){if(r.duration=(new Date).getTime()-this.startTime,4===t.readyState){n.status=t.status;var a=t.responseType,f="arraybuffer"===a||"blob"===a||"json"===a?t.response:t.responseText,u=e(f);if(u&&(r.rxSize=u),this.sameOrigin){var d=t.getResponseHeader("X-NewRelic-App-Data");d&&(n.cat=d.split(", ").pop())}}else n.status=0;r.cbTime=this.cbTime,o("xhr",[n,r,this.startTime])}}}function r(t,e){var n=i(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.sameOrigin=n.sameOrigin}if(window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&!/CriOS/.test(navigator.userAgent)){t("loader").features.xhr=!0;var o=t("handle"),i=t(2),a=t("ee"),s=["load","error","abort","timeout"],c=s.length,f=t(1);t(4),t(3),a.on("new-xhr",function(){this.totalCbs=0,this.called=0,this.cbTime=0,this.end=n,this.ended=!1,this.xhrGuids={}}),a.on("open-xhr-start",function(t){this.params={method:t[0]},r(this,t[1]),this.metrics={}}),a.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),a.on("send-xhr-start",function(t,n){var r=this.metrics,o=t[0],i=this;if(r&&o){var f=e(o);f&&(r.txSize=f)}this.startTime=(new Date).getTime(),this.listener=function(t){try{"abort"===t.type&&(i.params.aborted=!0),("load"!==t.type||i.called===i.totalCbs&&(i.onloadCalled||"function"!=typeof n.onload))&&i.end(n)}catch(e){try{a.emit("internal-error",[e])}catch(r){}}};for(var u=0;c>u;u++)n.addEventListener(s[u],this.listener,!1)}),a.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),a.on("xhr-load-added",function(t,e){var n=""+f(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),a.on("xhr-load-removed",function(t,e){var n=""+f(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),a.on("addEventListener-end",function(t,e){e instanceof XMLHttpRequest&&"load"===t[0]&&a.emit("xhr-load-added",[t[1],t[2]],e)}),a.on("removeEventListener-end",function(t,e){e instanceof XMLHttpRequest&&"load"===t[0]&&a.emit("xhr-load-removed",[t[1],t[2]],e)}),a.on("fn-start",function(t,e,n){e instanceof XMLHttpRequest&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=(new Date).getTime()))}),a.on("fn-end",function(t,e){this.xhrCbStart&&a.emit("xhr-cb-time",[(new Date).getTime()-this.xhrCbStart,this.onload,e],e)})}},{1:"XL7HBI",2:13,3:11,4:7,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],13:[function(t,e){e.exports=function(t){var e=document.createElement("a"),n=window.location,r={};e.href=t,r.port=e.port;var o=e.href.split("://");return!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=e.hostname||n.hostname,r.pathname=e.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname),r.sameOrigin=!e.hostname||e.hostname===document.domain&&e.port===n.port&&e.protocol===n.protocol,r}},{}],14:[function(t,e){function n(t){return function(){r(t,[(new Date).getTime()].concat(i(arguments)))}}var r=t("handle"),o=t(1),i=t(2);"undefined"==typeof window.newrelic&&(newrelic=window.NREUM);var a=["setPageViewName","addPageAction","setCustomAttribute","finished","addToTrace","inlineHit","noticeError"];o(a,function(t,e){window.NREUM[e]=n("api-"+e)}),e.exports=window.NREUM},{1:23,2:24,handle:"D5DuLP"}],gos:[function(t,e){e.exports=t("7eSDFh")},{}],"7eSDFh":[function(t,e){function n(t,e,n){if(r.call(t,e))return t[e];var o=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:o,writable:!0,enumerable:!1}),o}catch(i){}return t[e]=o,o}var r=Object.prototype.hasOwnProperty;e.exports=n},{}],D5DuLP:[function(t,e){function n(t,e,n){return r.listeners(t).length?r.emit(t,e,n):(o[t]||(o[t]=[]),void o[t].push(e))}var r=t("ee").create(),o={};e.exports=n,n.ee=r,r.q=o},{ee:"QJf3ax"}],handle:[function(t,e){e.exports=t("D5DuLP")},{}],XL7HBI:[function(t,e){function n(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:i(t,o,function(){return r++})}var r=1,o="nr@id",i=t("gos");e.exports=n},{gos:"7eSDFh"}],id:[function(t,e){e.exports=t("XL7HBI")},{}],loader:[function(t,e){e.exports=t("G9z0Bl")},{}],G9z0Bl:[function(t,e){function n(){var t=l.info=NREUM.info;if(t&&t.licenseKey&&t.applicationID&&f&&f.body){s(h,function(e,n){e in t||(t[e]=n)}),l.proto="https"===p.split(":")[0]||t.sslForHttp?"https://":"http://",a("mark",["onload",i()]);var e=f.createElement("script");e.src=l.proto+t.agent,f.body.appendChild(e)}}function r(){"complete"===f.readyState&&o()}function o(){a("mark",["domContent",i()])}function i(){return(new Date).getTime()}var a=t("handle"),s=t(1),c=(t(2),window),f=c.document,u="addEventListener",d="attachEvent",p=(""+location).split("?")[0],h={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-593.min.js"},l=e.exports={offset:i(),origin:p,features:{}};f[u]?(f[u]("DOMContentLoaded",o,!1),c[u]("load",n,!1)):(f[d]("onreadystatechange",r),c[d]("onload",n)),a("mark",["firstbyte",i()])},{1:23,2:14,handle:"D5DuLP"}],23:[function(t,e){function n(t,e){var n=[],o="",i=0;for(o in t)r.call(t,o)&&(n[i]=e(o,t[o]),i+=1);return n}var r=Object.prototype.hasOwnProperty;e.exports=n},{}],24:[function(t,e){function n(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(0>o?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=n},{}],25:[function(t,e){function n(t){return!(t&&"function"==typeof t&&t.apply&&!t[i])}var r=t("ee"),o=t(1),i="nr@wrapper",a=Object.prototype.hasOwnProperty;e.exports=function(t){function e(t,e,r,a){function nrWrapper(){var n,i,s,f;try{i=this,n=o(arguments),s=r&&r(n,i)||{}}catch(d){u([d,"",[n,i,a],s])}c(e+"start",[n,i,a],s);try{return f=t.apply(i,n)}catch(p){throw c(e+"err",[n,i,p],s),p}finally{c(e+"end",[n,i,f],s)}}return n(t)?t:(e||(e=""),nrWrapper[i]=!0,f(t,nrWrapper),nrWrapper)}function s(t,r,o,i){o||(o="");var a,s,c,f="-"===o.charAt(0);for(c=0;c<r.length;c++)s=r[c],a=t[s],n(a)||(t[s]=e(a,f?s+o:o,i,s,t))}function c(e,n,r){try{t.emit(e,n,r)}catch(o){u([o,e,n,r])}}function f(t,e){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(t);return n.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(r){u([r])}for(var o in t)a.call(t,o)&&(e[o]=t[o]);return e}function u(e){try{t.emit("internal-error",e)}catch(n){}}return t||(t=r),e.inPlace=s,e.flag=i,e}},{1:24,ee:"QJf3ax"}]},{},["G9z0Bl",4,12,6,5]);</script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<meta name="description" content="" />
+<meta name="author" content="Roku" />
+<meta name="copyright" content="" />
+<meta name="theme-color" content="#662d91" />
+
+<!-- Facebook OpenGraph -->
+<!--<meta property="fb:admins" content=""/>-->
+<meta property="og:title" content="Roku Channel Store"/>
+<meta property="og:type" content=""/>
+<meta property="og:url" content="https://www.roku.com/channels"/>
+<meta property="og:image" content="https://www.roku.com/assets/roku-logo-purple.png"/>
+<meta property="og:description" content=""/>
+<meta property="og:site_name" content="Roku"/>
+
+<!-- Twitter Cards -->
+<meta name="twitter:card" content="summary">
+<meta name="twitter:url" content="https://www.roku.com/channels">
+<meta name="twitter:title" content="Roku Channel Store">
+<meta name="twitter:description" content="">
+<meta name="twitter:image" content="https://www.roku.com/assets/roku-logo-purple.png">
+<meta name="twitter:site" content="@RokuPlayer">
+<meta name="twitter:creator" content="@RokuPlayer">
+
+<!-- Google Plus -->
+<meta itemprop="description" content="">
+<meta itemprop="image" content="https://www.roku.com/assets/roku-logo-purple.png">
+<meta itemprop="name" content="Roku Channel Store">
+<meta itemprop="url" content="https://www.roku.com/channels">
+
+<!-- Bootstrap -->
+<link rel="canonical" href="https://www.roku.com/channels" />
+<link rel="shortlink" href="https://www.roku.com/channels" />
+<link rel="shortcut icon" href="/favicon.ico" type="image/vnd.microsoft.icon" />
+<link rel="stylesheet" href="//dkyewww41rum8.cloudfront.net/1424461164410/app.css">
+<title>Roku Channel Store</title>
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lte IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/2014.01.31/classList.min.js"></script>
+    <script src="/js/ie/xdomain.js" slave="//shop.roku.com/proxy.html"></script>
+    <![endif]-->
+
+<!-- optimizely -->
+<script type="text/javascript">
+  setTimeout(function(){var a=document.createElement("script");
+  var ol = window.location.hostname == "www.roku.com" ? "//cdn.optimizely.com/js/201186230.js" : "//cdn.optimizely.com/js/224815611.js";
+  var b=document.getElementsByTagName("script")[0];
+  a.src=document.location.protocol+ol;
+  a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
+</script>
+</head>
+<body>
+
+<!--[if lte IE 8]>
+Your browser is outdated. Upgrade your browser for the best experience.
+<a href="http://whatbrowser.org/" class="update-browser btn btn-primary margin-quarter right">Update</a>
+<![endif]-->
+
+<!--[if IE 9]>
+<modal-dialog-browser></modal-dialog-browser>
+<![endif]-->
+
+<div class="" id="hero">
+        <header nav-main class="navbar navbar-default" role="navigation">
+            <div class="container">
+            	<div class="row">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#nav-main-menu">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+        				<a class="navbar-brand logo" href="/">Roku&reg;</a>
+                        <a class="navbar-text" href="/">Now this is TV&trade;</a>
+                        <div class="navbar-header-utils text-right">
+                            <a href="/products/compare" class="btn bg-red btn-mobile">Choose your player</a>
+                            <div class="btn-mobile cart"><cart-notify></cart-notify></div>
+                        </div>
+                    </div>
+                    <div class="collapse navbar-collapse" id="nav-main-menu">
+                        <login-menu class="navbar-login"></login-menu>
+                        <ul class="nav navbar-nav navbar-subnav">
+                            <li><a class="ul" href="/how-it-works">How it works</a></li>
+                            <li><a class="ul" href="/whats-on">See what's on</a></li>
+                            <li><a href="/products/compare" class="btn btn-primary">Choose your player</a></li>
+                            <li class="cart-menu hidden-xs">
+                                <cart-notify></cart-notify>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+	<style type="text/css">     .modal-backdrop.fade.in { display:none; }     .channel-grid-content h4 { text-align:left; max-width:100%; padding-left:1rem; padding-right:1rem; } </style>
+</div>
+
+
+<!--- CHANNELS GRID -->  <div class="channel-store container">   <div id="cs-channel-list" class="cs-view channel-grid-content row">      <!-- channel category navigation -->     <nav id="cs-category-chooser" class="cs-view channel-categories wrapper"></nav>     <!-- /channel category navigation -->     <div class="container">       <div id="cs-channel-list-sort" class="col-sm-9 col-xs-12"></div>       <div id="search" class="col-sm-3 col-xs-12">         <fieldset>           <input id="cs-query" type="text" name="query" value="" placeholder="Search channels">         </fieldset>       </div>     </div>     <div class="row">        <!-- grid -->       <div class="cs-channel-list-items channel-grid"> </div>       <!-- /grid -->      </div>     <div id="loading"></div>   </div>   <!-- tooltips -->   <div class="cs-view">     <div class="tooltip installed">       <p> <strong>{{name}}</strong><br />         has been added to your Roku player </p>     </div>   </div>   <!-- /tooltips -->  </div> <!-- CHANNELS DETAILS --> <div id="channels-details" class="cs-view">    <script id="cs-channel-details-template" type="text/x-handlebars-template">    <div id="channel-details-hero" class="bg-purple">      <div class="container">     <div class="col-lg-8 col-sm-12 pull-left channels-hero-content">       <div class="cs-poster col-md-4 col-sm-12"><img class="cs-poster-big" src="{{hdPosterUrl}}" alt="" /></div>       <div class="col-md-8 col-sm-12" style="padding:0 2rem">         <h3>{{name}}</h3>         <p class="categories">Categories: {{#each categories}} <a href="{{fn_categoryUrlById this.id}}" class="btn-sm blue">{{this.name}}</a>{{/each}}</p>         <p> {{description}}&hellip; <a class="read-more-link" href="#read-more"><em>Read more</em></a></p>         <p>                  <div class="star-rating-container">            <div class="star-rating-off gray glyphicon"></div>         {{#if userStarCount }}           <div class="star-rating-on glyphicon red" style="width: {{fn_userStarWidth}}%;"></div>           {{#if isUserMappedChannel }}            <div id="rated" class="star-rating-buttons">             <a data-rating="1" data-channel="{{id}}" data-tip="Hated it" title="Hated it"></a>              <a data-rating="2" data-channel="{{id}}" data-tip="Didn't like it" title="Didn't like it"></a>              <a data-rating="3" data-channel="{{id}}" data-tip="Liked it" title="Liked it"></a>              <a data-rating="4" data-channel="{{id}}" data-tip="Really liked it" title="Really liked it"></a>              <a data-rating="5" data-channel="{{id}}" data-tip="Loved it" title="Loved it"></a>            </div>           {{/if}}          {{else}}           <div class="star-rating-on glyphicon yellow" style="width: {{fn_starWidth}}%;"></div>            {{#if isUserMappedChannel }}            <div id="rated" class="star-rating-buttons">             <a data-rating="1" data-channel="{{id}}" data-tip="Hated it" title="Hated it"></a>              <a data-rating="2" data-channel="{{id}}" data-tip="Didn't like it" title="Didn't like it"></a>              <a data-rating="3" data-channel="{{id}}" data-tip="Liked it" title="Liked it"></a>              <a data-rating="4" data-channel="{{id}}" data-tip="Really liked it" title="Really liked it"></a>              <a data-rating="5" data-channel="{{id}}" data-tip="Loved it" title="Loved it"></a>            </div>           {{/if}}         {{/if}}         </div>         <small>{{starRatingCount}} ratings &nbsp;&nbsp;&nbsp; {{fn_starAverage}} </small>         </p>         <p style="position:relative;"> {{#if fn_isAuthenticated }}           {{#if isUserMappedChannel }}              {{#if fn_addChannelTextNone}}<span class="installed btn-sm bg-gray">Installed</span>{{/if}}           {{#if fn_addChannelTextOnce}}<span class="installed btn-sm bg-gray">Installed</span>{{/if}}           {{#if fn_addChannelTextMonthly}}<a href="{{fn_addChannelUrl}}" class="btn red">Manage Subscription</a>{{/if}}           {{#if fn_addChannelTextYearly}}<a href="{{fn_addChannelUrl}}" class="btn red">Manage Subscription</a>{{/if}}           {{else}}           {{#if fn_addChannelTextNone}}<a href="{{fn_addChannelUrl}}" class="btn red cs-add-channel" data-channel-id="{{id}}">+ Add channel</a>{{/if}}           {{#if fn_addChannelTextOnce}}<a href="{{fn_addChannelUrl}}" class="btn red cs-add-channel" data-channel-id="{{id}}">Buy {{price}}</a>{{/if}}           {{#if fn_addChannelTextMonthly}}<a href="{{fn_addChannelUrl}}" class="btn red cs-add-channel" data-channel-id="{{id}}">Subscribe {{price}}/mo</a>{{/if}}           {{#if fn_addChannelTextYearly}}<a href="{{fn_addChannelUrl}}" class="btn red cs-add-channel" data-channel-id="{{id}}">Subscribe {{price}}/yr</a>{{/if}}           {{/if}}           {{else}}            <a href="{{fn_addChannelUrl}}" class="btn red cs-add-channel" data-channel-id="{{id}}">+ Add channel</a> {{/if}}            &nbsp; &nbsp;                          <a href="{{fn_categoryUrlById categories.0.id}}" class="btn btn-outline white">Return to all channels</a>             <span class="cs-result-tip-container">           <!-- action success / error tips get added inside here -->            </span> </p>         <small> {{#if specialRequirements}}         <div>{{specialRequirements}}</div>         {{/if}}         {{#each requirements}}         <div>{{this}}</div>         {{/each}} </small></div>     </div>   <div style="clear:both"></div>   </div> </div> <div class="container">    <!-- description -->   <article class="channel-description row col-md-6 col-sm-12">     <div id="read-more" class="content-copy col-sm-12">       <h3><strong>{{name}}</strong></h3>       <p><em>Developer: {{developer}}</em></p>       <p>{{& fn_webDescription webDescription}}</p>     </div>   </article>   <!-- /description -->    <!-- screenshots -->    {{#if screenshotUrls.length}}   <div class="channel-screenshots row col-md-6 col-sm-12">     <div class="channel-screenshots-full text-center"> <img id="cs-screenshot-full" src="{{fn_screenshotFull screenshotUrls.0.this}}"/> </div>       <div class="channel-screenshots-thumbs col-md-12">       {{#each screenshotUrls}}        <div class="col-md-3 col-xs-3"><a class="cs-screenshot-thumb" href="#" data-url="{{this}}" >         <img src="{{fn_screenshotThumb this}}"/></a>       </div>       {{/each}}        </div>   </div>   {{/if}}    <!-- /screenshots -->    <!-- more from same category --> </div> <div class="container" style="clear:both">     <div class="channel-grid-content">       <h4>Other popular channels in {{primaryCategory.name}}</h4>       <!-- grid -->       <div class="cs-channel-list-items channel-grid row">          <!-- grid-item -->        </div>       <!-- /grid -->      </div>   </div> <!-- /more from same category -->      </script>  </div> <!-- /CHANNELS DETAILS -->  <!-- MODAL SIGN-IN WINDOW --> <div id="cs-signin-view" class="modal fade cs-view">   <div class="modal-dialog">     <div class="modal-content">       <div class="modal-header">         <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>         <h4 class="modal-title signin">Confirm your email and password</h4>       </div>       <div class="pad-quarter right left top bottom">         <iframe></iframe>       </div>     </div>   </div> </div> <!-- /MODAL SIGN-IN WINDOW -->  <!-- MODAL CONFIRMATION WINDOW --> <div id="cs-modal-view" class="modal cs-modal-view">   <div class="modal-dialog">     <div class="modal-content">       <div class="modal-header">         <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>         <h4 class="modal-title signin"></h4>       </div>       <div class="modal-body pad-quarter right left top bottom"></div>       <div class="modal-buttons pad-quarter right left bottom text-right">         <button class="btn red cancel" data-dismiss="modal">Cancel</button>         <a href="#" class="btn green continue" data-dismiss="modal"></a> </div>     </div>   </div> </div> <!-- /MODAL CONFIRMATION WINDOW -->
+
+
+        <footer class="container" x-ga-cat="Footer">
+          <div class="row">
+            <div class="accordion col-sm-3">
+              <div class="accordion-tab">
+                <h4>Our company</h4>
+              </div>
+              <div class="accordion-body">
+                <ul class="footer-list">
+                  <li><a href="/about/company">About us</a></li>
+                  <li><a href="/what-is-roku#our-story">Our story</a></li>
+                  <li><a href="/about/contact">Contact us</a></li>
+                  <li><a href="/about/contact">Advertise</a></li>
+                  <li><a href="/developer">Developers</a></li>
+                  <li><a href="/about/pressroom">Press room</a></li>
+                  <li><a href="/about/employment">Jobs</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="accordion col-sm-3">
+              <div class="accordion-tab">
+                <h4>Shop products</h4>
+              </div>
+              <div class="accordion-body">
+                <ul class="footer-list">
+                  <li><a href="/reviews/press">Reviews</a></li>
+                  <li><a href="/products/compare">Roku players</a></li>
+                  <li><a href="/roku-tv">Roku TV</a></li>
+                  <li><a href="/accessories">Accessories</a></li>
+                  <li><a href="/offers">Special offers</a></li>
+                  <li><a href="/coupons">Coupons &amp; deals</a></li>
+                  <li><a href="/retail">Retail locations</a></li>
+                  <li><a href="/roku-vs-appletv-vs-firetv-vs-chromecast">Roku vs the competition</a></li>
+                  <li><a href="/dishworld">Dishworld</a></li>
+                  <li><a href="/roku-ready">Roku Ready Program</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="accordion col-sm-4 col-md-3">
+              <div class="accordion-tab">
+                <h4>Connect with us</h4>
+              </div>
+              <div class="accordion-body">
+                <div class="no-pad">
+                  <div class="connect-social clearfix">
+                      <a href="//www.facebook.com/roku" target="_blank" x-ga="Facebook"><i class="glyphicon glyphicon-facebook"></i></a>
+                      <a href="//twitter.com/rokuplayer" target="_blank" x-ga="Twitter"><i class="glyphicon glyphicon-twitter"></i></a>
+                      <a href="//www.youtube.com/roku" target="_blank" x-ga="YouTube"><i class="glyphicon glyphicon-youtube"></i></a>
+                      <a href="http://blog.roku.com/" x-ga="Blog"><i class="glyphicon glyphicon-roku-blog"></i></a> </div>
+                  <h5>Newsletter</h5>
+                  <div>
+                      <div ng-controller="strongViewController">
+                        <div class="input-group">
+                          <input ng-model="email" type="email" placeholder="Newsletter sign up" class="form-control"/>
+                          <span class="newsletter-validation validation">Please verify your email is correct</span>
+                          <span class="input-group-btn">
+                          <button class="btn" ng-click="signUp()" x-ga="Newsletter Sign up"><i class="glyphicon glyphicon-chevron-right-sm"></i></button>
+                          </span></div>
+                        <div ng-if="message" ng-bind-html="message | convertHTML" class="text-green pad-quarter left right"></div>
+                        <div ng-if="error" ng-bind-html="error | convertHTML" class="text-red pad-quarter left right"></div>
+                    </div>
+                    <h4>Mobile apps</h4>
+                    <ul class="footer-list">
+                      <li><a href="https://itunes.apple.com/us/app/roku/id482066631?mt=8" target="_blank">iOS</a></li>
+                      <li><a href="https://play.google.com/store/apps/details?id=com.roku.remote&hl=en" target="_blank">Android</a></li>
+                      <li><a href="http://www.windowsphone.com/en-us/store/app/roku/9fdb2473-403d-434e-93ca-6c8c7225ef73" target="_blank">Windows</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-2 col-md-3"><a href="/" x-ga="Footer Logo"><img src="//wwwimg.roku.com/images/logo-footer.png" class="img-responsive footer-logo" /></a> </div>
+          </div>
+          <div class="row addendum">
+            <div class="col-sm-3 col-md-2 hidden-xs"> <a href="http://www.bbb.org/sanjose/business-reviews/electronic-equipment-and-supplies-wholesale-and-manufacturers/roku-in-saratoga-ca-223541" target="_blank" x-ga="BBB Logo"><img src="//dkyewww41rum8.cloudfront.net/assets/bbb-footer.png" class="img-responsive" /></a> </div>
+            <div class="col-sm-9 col-md-10">
+              <p>&copy; 2015 Roku, Inc. All rights reserved. <span class="hidden-xs">ROKU, the ROKU Logo, ROKU READY, the ROKU READY Logo, "STOP DREAMING. START STREAMING.", "HAPPY STREAMING.", "THERE'S A TON OF ENTERTAINMENT IN THIS LITTLE BOX.", "STREAMING STICK", and "NOW THIS IS TV." are trademarks and/or registered trademarks of Roku, Inc. in the United States and other countries.</span></p>
+              <p><strong><a href="/about/sitemap">Site Map</a> |</span>
+                <a href="/about/privacy">Updated privacy policy</a> | <a href="/about/termsofuse">Terms of use</a> <span class="hidden-xs">| <a href="/about/dmca">DMCA policy</a></span> <span class="hidden-xs">| <a href="http://support.roku.com/entries/28044570-Roku-Player-Warranty-and-Open-Source-Information">EULA</a></span></strong></p>
+            </div>
+          </div>
+        </footer>
+        <script type="text/javascript" pagespeed_no_defer="">
+            var ROKU = {"s3":"//wwwimg.roku.com/","www":"//www.roku.com/","my":"//my.roku.com/","migration":true,"owner":"//owner.roku.com/","shop":"//shop.roku.com/","support":"//support.roku.com/","config":{},"env":"production"};
+        	var rokuFriendlyName;
+        </script>
+
+<modal-window></modal-window>
+<modal-dialog></modal-dialog>
+
+
+
+<script src="//dkyewww41rum8.cloudfront.net/1424461164410/app.js" type="text/javascript" ></script>
+
+<!-- GOOGLE ANALYTICS -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', '', 'auto');
+  ga('send', 'pageview');
+  ga('require', 'ec');
+
+  // Track all the things!
+  document.addEventListener('click', function(event) {
+      //event.preventDefault();
+
+      var _target = event.target;
+      _target = _target.hasAttribute('x-ga') ? _target : (_target.nodeName == "BUTTON" || _target.nodeName == "A") ? _target : (_target.parentNode.nodeName == "A" || _target.parentNode.hasAttribute('x-ga')) ? _target.parentElement : false;
+      if((_target && !_target.classList.contains('close')) || (_target && _target.hasAttribute('x-ga'))) {
+
+          var _cTarget = _target;
+          var _cat;
+          while( (_cTarget = _cTarget.parentNode) && _cTarget.nodeName !== 'BODY' && !(_cat = _cTarget.getAttribute('x-ga-cat')))  {}
+
+          var gaEvent = {
+              'hitType' : 'event',
+              'eventCategory' : _cat ? _cat : _target.hasAttribute('x-ga-cat') ? _target.getAttribute('x-ga-cat') : _target.nodeName == 'A' ? "Link" : "Button",
+              'eventAction' : _target.hasAttribute('x-ga-action') ? _target.getAttribute('x-ga-action') : 'Click',
+              'eventLabel' : _target.hasAttribute('x-ga') ? _target.getAttribute('x-ga') : _target.hasAttribute('alt') ? _target.getAttribute('alt') : _target.innerText
+          };
+          ga('send', gaEvent);
+      }
+  });
+
+  // Hashchange event
+  window.addEventListener('hashchange', function() {
+      var gaPage = {
+          'hitType' : 'pageview',
+          'page' : document.location.pathname + document.location.search + document.location.hash,
+          'title' : document.title
+      };
+
+      ga('send', gaPage);
+  });
+
+</script>
+
+<!-- Google Tag Manager -->
+<noscript>
+    <iframe src="//www.googletagmanager.com/ns.html?id=GTM-MC84F8" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+</noscript>
+<script>
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MC84F8');
+</script>
+<!-- End Google Tag Manager -->
+<!-- Crazyegg -->
+<script type="text/javascript">
+setTimeout(function(){var a=document.createElement("script");
+var b=document.getElementsByTagName("script")[0];
+a.src=document.location.protocol+"//dnn506yrbagrg.cloudfront.net/pages/scripts/0013/8548.js?"+Math.floor(new
+Date().getTime()/3600000);
+a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
+</script>
+<script src="/src/controllers/GenericPageControllers.js" type="text/javascript"></script>
+
+  <!-- LOAD CHANNEL STORE SCRIPTS -->
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js" pagespeed_no_defer=""></script>
+  <script type="text/javascript" src="/js/bootstrap.min.js" pagespeed_no_defer=""></script>
+  
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.3.3/underscore-min.js" pagespeed_no_defer=""></script>
+  <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/backbone.js/0.9.2/backbone-min.js" pagespeed_no_defer=""></script>
+  <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/handlebars.js/1.0.0.beta6/handlebars.min.js" pagespeed_no_defer=""></script>
+  <script type="text/javascript" src="/src/lib/jquery.ba-postmessage.min.js" pagespeed_no_defer=""></script>
+  <script type="text/javascript" src="/src/channel-store/roku.js" pagespeed_no_defer=""></script>
+  <script type="text/javascript" src="/src/channel-store/roku-channels.js" pagespeed_no_defer=""></script>
+  <script type="text/javascript" src="/src/channel-store/roku-categories.js" pagespeed_no_defer=""></script>
+</body>
+</html>
+

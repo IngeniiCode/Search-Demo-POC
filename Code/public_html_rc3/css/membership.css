@@ -1,0 +1,95 @@
+/* 
+  M E M B E R S H I P   S T Y L E S
+*/
+
+#membership {
+  margin: 0px;
+  padding: 2px;
+  width: auto;
+}
+
+#membership div.available {
+  display: inline-block;
+  position: relative;
+  margin: 5px;
+  float: left; 
+  width: 200px; 
+  height: 320px; 
+  -webkit-border-radius: 8px; border-radius: 8px; border: 2px solid #e6bc3e; padding: 4px 4px;
+  background-image: -webkit-gradient(
+  	linear,
+	left top,
+	left bottom,
+	color-stop(0, #DBF5C7),
+	color-stop(1, #E0DF8D)
+  );
+  background-image: -o-linear-gradient(bottom, #DBF5C7 0%, #E0DF8D 100%);
+  background-image: -moz-linear-gradient(bottom, #DBF5C7 0%, #E0DF8D 100%);
+  background-image: -webkit-linear-gradient(bottom, #DBF5C7 0%, #E0DF8D 100%);
+  background-image: -ms-linear-gradient(bottom, #DBF5C7 0%, #E0DF8D 100%);
+  background-image: linear-gradient(to bottom, #DBF5C7 0%, #E0DF8D 100%);
+}
+
+#membership div.pending {
+  display: inline-block;
+  position: relative;
+  margin: 5px;
+  float: left; 
+  width: 200px; 
+  height: 320px; 
+  -webkit-border-radius: 8px; border-radius: 8px; border: 2px solid #e6bc3e; padding: 4px 4px;
+  background-image: -webkit-gradient(
+  	linear,
+	left top,
+	left bottom,
+	color-stop(0, #EEE),
+	color-stop(1, #CCC)
+  );
+  background-image: -o-linear-gradient(bottom, #CCC 0%, #EEE 100%);
+  background-image: -moz-linear-gradient(bottom, #CCC 0%, #EEE 100%);
+  background-image: -webkit-linear-gradient(bottom, #CCC 0%, #EEE 100%);
+  background-image: -ms-linear-gradient(bottom, #CCC 0%, #EEE 100%);
+  background-image: linear-gradient(to bottom, #CCC 0%, #EEE 100%);
+}
+
+#membership div ul {  
+  margin: 2px; 
+  padding: 10px; 
+  list-style-type: circle;
+  list-style-type: "★"; 
+}
+
+div.su { width: 100%; }  
+
+#membership .su button {
+  width: 85%;
+  height: 50px; 
+  position: absolute;
+  padding: 6px;
+  bottom: 4px; 
+  left: 7%;
+  text-align: center;
+  -webkit-border-radius: 8px; 
+  border-radius: 8px; 
+  border: 2px solid green; 
+  box-shadow: 2px 2px 4px 1px #999;
+  background-color: #eee;
+}
+
+#membership button:hover {
+    color: #eee;
+    background-color: #32B;
+    box-shadow: 2px 2px 4px 1px #AFA;
+}
+
+#termsblock { 
+  padding: 1px;
+  margin: 4px 2px 8px 2px;
+}
+#termsblock a {
+  text-decoration: none;
+  font-weight: normal;
+  margin: 25px 8px;
+  font-size: 115%;
+}
+

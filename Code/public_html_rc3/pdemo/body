@@ -1,0 +1,20 @@
+<h3>PRIME Demo</h3>
+<div id="DEMO">
+ <!-- form goes here to initiate a search -->
+  <div id="demo_form">
+    <form id="search_form" name="pdemo" action="#" method="post">
+      <table>
+      <tr><th>Services to Locate:</th><td><input type="text" name="terms" value=""></td></tr>
+      <tr><th>City, State / Zip:</th><td><input type="text" name="location" value=""></td></tr>
+      <tr><td colspan="2"><button type="button" name="submitit" onClick="return searchTerms(window.document);"> GO! </button></td></tr>
+    </table>
+    </form>
+  </div>
+  <div id="demo_results">
+    <span id="results_searcing"><h3>Searching</h3></span>
+    <div id="results_status"></div>
+    <!-- <span id="results_searching_bar"><img src="/igx/searching_big.gif"></span> -->
+  </div>
+</div>
+
+

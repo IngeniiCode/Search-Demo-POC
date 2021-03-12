@@ -1,0 +1,17 @@
+<h2>Welcome to Outspoken Ninja!</h2>
+<div id="profile" class="p100">
+
+  <div id="profile_login" class="profile p40">
+    <h4>Use Outspoken Ninja Login</h4>
+    <hr>
+    <h4>Sign-up for Free</h4>
+  </div>
+
+  <div id="profile_login" class="profile p40">
+    <h4>Login / Register using Facebook</h4>
+        <fb:login-button max_rows="1" size="xlarge" show_faces="false" auto_logout_link="true"></fb:login-button>
+<!--    <fb:login-button max_rows="1" size="small" show_faces="false" auto_logout_link="true"></fb:login-button> -->
+  </div>
+
+</div>
+<div style="clear: both"><div>

@@ -1,0 +1,35 @@
+<h2>Provider Facilities Search <span style="font-size: .65em; vertical-align:top;"><em>* Demo *</em></span></h2>
+<div id="DEMO">
+ <!-- form goes here to initiate a search -->
+  <div id="demo_form">
+    <form id="search_form" name="pdemo" action="#" method="post">
+      <table>
+      <tr><th colspan=2>Locate Provides for these Services: </th><td></tr>
+      <tr>
+         <td><input type="checkbox" name="srvc_dr" value="" onClick="cbx_activate(this);">Drug Rehabilitation</td>
+         <td><input type="checkbox" name="srvc_ar" value="" onClick="cbx_activate(this);">Alcohol Treatment</td>
+      </tr>
+      <tr>
+         <td><input type="checkbox" name="srvc_dc" value="" onClick="cbx_activate(this);">Drug counceling</td>
+         <td><input type="checkbox" name="srvc_ac" value="" onClick="cbx_activate(this);">Alcholol Counceling</td>
+      </tr>
+      <tr>
+         <td><input type="checkbox" name="srvc_t4c" value="" onClick="cbx_activate(this);">Thinking for Change</td>
+         <td><input type="checkbox" name="srvc_co" value="" onClick="cbx_activate(this);">Counceling</td>
+      </tr>
+      <tr>
+         <td><input type="checkbox" name="srvc_mhs" value="" onClick="cbx_activate(this);">Mental Health Services</td>
+         <td><input type="checkbox" name="srvc_mds" value="" onClick="cbx_activate(this);">Medical Services</td>
+     </tr>
+     <tr><td colspan=2><b>Provider Name:</b> <input type="text" name="desc_short" value=""></td></tr> 
+<!--      <tr><td colspan=2><b>City, State / Zip:</b> <input type="text" name="location" value=""> <button type="button" name="submitit" onClick="return searchServices(window.document);"> GO! </button></td></tr> -->
+      <tr><td colspan=2><b>City, State / Zip:</b>  Salt Lake City, UT <button type="button" name="submitit" onClick="return searchServices(window.document);"> GO! </button></td></tr>
+    </table>
+    </form>
+  </div>
+</div>
+<div id="demo_results">
+  <div id="results_status"></div>
+</div>
+<div id="results_data"></div>
+

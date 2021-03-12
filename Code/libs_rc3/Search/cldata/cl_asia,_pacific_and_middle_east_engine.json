@@ -1,0 +1,500 @@
+{
+    "Bangladesh": {
+        "bangladesh": {
+            "name": "Bangladesh",
+            "geo": {
+                "lat": 23.684994,
+                "lng": 90.356331
+            }
+        }
+    },
+    "China": {
+        "beijing": {
+            "name": "Beijing",
+            "geo": {
+                "lat": 39.904211,
+                "lng": 116.407395
+            }
+        },
+        "chengdu": {
+            "name": "Chengdu",
+            "geo": {
+                "lat": 30.572269,
+                "lng": 104.066541
+            }
+        },
+        "chongqing": {
+            "name": "Chongqing",
+            "geo": {
+                "lat": 29.56301,
+                "lng": 106.551557
+            }
+        },
+        "dalian": {
+            "name": "Dalian",
+            "geo": {
+                "lat": 38.914003,
+                "lng": 121.614682
+            }
+        },
+        "guangzhou": {
+            "name": "Guangzhou",
+            "geo": {
+                "lat": 23.12911,
+                "lng": 113.264385
+            }
+        },
+        "hangzhou": {
+            "name": "Hangzhou",
+            "geo": {
+                "lat": 30.274085,
+                "lng": 120.15507
+            }
+        },
+        "nanjing": {
+            "name": "Nanjing",
+            "geo": {
+                "lat": 32.060255,
+                "lng": 118.796877
+            }
+        },
+        "shanghai": {
+            "name": "Shanghai",
+            "geo": {
+                "lat": 31.230416,
+                "lng": 121.473701
+            }
+        },
+        "shenyang": {
+            "name": "Shenyang",
+            "geo": {
+                "lat": 41.805699,
+                "lng": 123.431472
+            }
+        },
+        "shenzhen": {
+            "name": "Shenzhen",
+            "geo": {
+                "lat": 22.543099,
+                "lng": 114.057868
+            }
+        },
+        "wuhan": {
+            "name": "Wuhan",
+            "geo": {
+                "lat": 30.593099,
+                "lng": 114.305393
+            }
+        },
+        "xian": {
+            "name": "Xi'an",
+            "geo": {
+                "lat": 34.341568,
+                "lng": 108.940175
+            }
+        }
+    },
+    "Guam \/ Micronesia": {
+        "micronesia": {
+            "name": "Guam-micronesia",
+            "geo": {
+                "lat": 13.444304,
+                "lng": 144.793731
+            }
+        }
+    },
+    "Hong Kong": {
+        "hongkong": {
+            "name": "Hong Kong",
+            "geo": {
+                "lat": 22.396428,
+                "lng": 114.109497
+            }
+        }
+    },
+    "India": {
+        "ahmedabad": {
+            "name": "Ahmedabad",
+            "geo": {
+                "lat": 23.022505,
+                "lng": 72.5713621
+            }
+        },
+        "bangalore": {
+            "name": "Bangalore",
+            "geo": {
+                "lat": 12.9715987,
+                "lng": 77.5945627
+            }
+        },
+        "bhubaneswar": {
+            "name": "Bhubaneswar",
+            "geo": {
+                "lat": 20.2960587,
+                "lng": 85.8245398
+            }
+        },
+        "chandigarh": {
+            "name": "Chandigarh",
+            "geo": {
+                "lat": 30.7333148,
+                "lng": 76.7794179
+            }
+        },
+        "chennai": {
+            "name": "Chennai (madras)",
+            "geo": {
+                "lat": 13.0826802,
+                "lng": 80.2707184
+            }
+        },
+        "delhi": {
+            "name": "Delhi",
+            "geo": {
+                "lat": 28.6139391,
+                "lng": 77.2090212
+            }
+        },
+        "goa": {
+            "name": "Goa",
+            "geo": {
+                "lat": 15.2993265,
+                "lng": 74.123996
+            }
+        },
+        "hyderabad": {
+            "name": "Hyderabad",
+            "geo": {
+                "lat": 17.385044,
+                "lng": 78.486671
+            }
+        },
+        "indore": {
+            "name": "Indore",
+            "geo": {
+                "lat": 22.7195687,
+                "lng": 75.8577258
+            }
+        },
+        "jaipur": {
+            "name": "Jaipur",
+            "geo": {
+                "lat": 26.9124336,
+                "lng": 75.7872709
+            }
+        },
+        "kerala": {
+            "name": "Kerala",
+            "geo": {
+                "lat": 10.8505159,
+                "lng": 76.2710833
+            }
+        },
+        "kolkata": {
+            "name": "Kolkata (calcutta)",
+            "geo": {
+                "lat": 22.5402602,
+                "lng": 88.3821989
+            }
+        },
+        "lucknow": {
+            "name": "Lucknow",
+            "geo": {
+                "lat": 26.8465108,
+                "lng": 80.9466832
+            }
+        },
+        "mumbai": {
+            "name": "Mumbai",
+            "geo": {
+                "lat": 19.0759837,
+                "lng": 72.8776559
+            }
+        },
+        "pune": {
+            "name": "Pune",
+            "geo": {
+                "lat": 18.5204303,
+                "lng": 73.8567437
+            }
+        },
+        "surat": {
+            "name": "Surat Surat",
+            "geo": {
+                "lat": 21.1702401,
+                "lng": 72.8310607
+            }
+        }
+    },
+    "Indonesia": {
+        "jakarta": {
+            "name": "Indonesia",
+            "geo": {
+                "lat": -0.789275,
+                "lng": 113.921327
+            }
+        }
+    },
+    "Iran": {
+        "tehran": {
+            "name": "Iran",
+            "geo": {
+                "lat": 32.427908,
+                "lng": 53.688046
+            }
+        }
+    },
+    "Iraq": {
+        "baghdad": {
+            "name": "Iraq",
+            "geo": {
+                "lat": 33.223191,
+                "lng": 43.679291
+            }
+        }
+    },
+    "Israel and Palestine": [],
+    "Israel And Palestine": {
+        "haifa": {
+            "name": "Haifa",
+            "geo": {
+                "lat": 32.4814111,
+                "lng": 34.994751
+            }
+        },
+        "jerusalem": {
+            "name": "Jerusalem",
+            "geo": {
+                "lat": 31.768319,
+                "lng": 35.21371
+            }
+        },
+        "telaviv": {
+            "name": "Tel Aviv",
+            "geo": {
+                "lat": 32.0852999,
+                "lng": 34.7817676
+            }
+        },
+        "ramallah": {
+            "name": "West Bank",
+            "geo": {
+                "lat": 31.9465703,
+                "lng": 35.3027226
+            }
+        }
+    },
+    "Japan": {
+        "fukuoka": {
+            "name": "Fukuoka",
+            "geo": {
+                "lat": 33.5903547,
+                "lng": 130.4017155
+            }
+        },
+        "hiroshima": {
+            "name": "Hiroshima",
+            "geo": {
+                "lat": 34.3852029,
+                "lng": 132.4552927
+            }
+        },
+        "nagoya": {
+            "name": "Nagoya",
+            "geo": {
+                "lat": 35.1814464,
+                "lng": 136.906398
+            }
+        },
+        "okinawa": {
+            "name": "Okinawa",
+            "geo": {
+                "lat": 26.2124013,
+                "lng": 127.6809317
+            }
+        },
+        "osaka": {
+            "name": "Osaka-kobe-kyoto",
+            "geo": {
+                "lat": 35.0116363,
+                "lng": 135.7680294
+            }
+        },
+        "sapporo": {
+            "name": "Sapporo",
+            "geo": {
+                "lat": 43.0620958,
+                "lng": 141.3543763
+            }
+        },
+        "sendai": {
+            "name": "Sendai",
+            "geo": {
+                "lat": 38.268215,
+                "lng": 140.8693558
+            }
+        },
+        "tokyo": {
+            "name": "Tokyo",
+            "geo": {
+                "lat": 35.7090259,
+                "lng": 139.7319925
+            }
+        }
+    },
+    "Korea": {
+        "seoul": {
+            "name": "Seoul",
+            "geo": {
+                "lat": 37.566535,
+                "lng": 126.9779692
+            }
+        }
+    },
+    "Kuwait": {
+        "kuwait": {
+            "name": "Kuwait",
+            "geo": {
+                "lat": 29.375859,
+                "lng": 47.9774052
+            }
+        }
+    },
+    "Lebanon": {
+        "beirut": {
+            "name": "Beirut, Lebanon",
+            "geo": {
+                "lat": 33.8886289,
+                "lng": 35.4954794
+            }
+        }
+    },
+    "Malaysia": {
+        "malaysia": {
+            "name": "Malaysia",
+            "geo": {
+                "lat": 4.210484,
+                "lng": 101.975766
+            }
+        }
+    },
+    "Pakistan": {
+        "pakistan": {
+            "name": "Pakistan",
+            "geo": {
+                "lat": 30.375321,
+                "lng": 69.345116
+            }
+        }
+    },
+    "Philippines": {
+        "bacolod": {
+            "name": "Bacolod",
+            "geo": {
+                "lat": 10.6407389,
+                "lng": 122.9689565
+            }
+        },
+        "naga": {
+            "name": "Bicol Region",
+            "geo": {
+                "lat": 13.4209885,
+                "lng": 123.4136736
+            }
+        },
+        "cdo": {
+            "name": "Cagayan De Oro",
+            "geo": {
+                "lat": 8.4542363,
+                "lng": 124.6318977
+            }
+        },
+        "cebu": {
+            "name": "Cebu",
+            "geo": {
+                "lat": 10.3156992,
+                "lng": 123.8854366
+            }
+        },
+        "davaocity": {
+            "name": "Davao City",
+            "geo": {
+                "lat": 7.190708,
+                "lng": 125.455341
+            }
+        },
+        "iloilo": {
+            "name": "Iloilo",
+            "geo": {
+                "lat": 10.7201501,
+                "lng": 122.5621063
+            }
+        },
+        "manila": {
+            "name": "Manila",
+            "geo": {
+                "lat": 14.5995124,
+                "lng": 120.9842195
+            }
+        },
+        "pampanga": {
+            "name": "Pampanga",
+            "geo": {
+                "lat": 15.079409,
+                "lng": 120.6199895
+            }
+        },
+        "zamboanga": {
+            "name": "Zamboanga",
+            "geo": {
+                "lat": 6.9214424,
+                "lng": 122.0790267
+            }
+        }
+    },
+    "Singapore": {
+        "singapore": {
+            "name": "Singapore",
+            "geo": {
+                "lat": 1.2800945,
+                "lng": 103.8509491
+            }
+        }
+    },
+    "Taiwan": {
+        "taipei": {
+            "name": "Taiwan",
+            "geo": {
+                "lat": 22.6158015,
+                "lng": 120.7120023
+            }
+        }
+    },
+    "Thailand": {
+        "bangkok": {
+            "name": "Thailand",
+            "geo": {
+                "lat": 15.870032,
+                "lng": 100.992541
+            }
+        }
+    },
+    "United Arab Emirates": {
+        "dubai": {
+            "name": "United Arab Emirates",
+            "geo": {
+                "lat": 23.424076,
+                "lng": 53.847818
+            }
+        }
+    },
+    "Vietnam": {
+        "vietnam": {
+            "name": "Vietnam",
+            "geo": {
+                "lat": 14.058324,
+                "lng": 108.277199
+            }
+        }
+    }
+}

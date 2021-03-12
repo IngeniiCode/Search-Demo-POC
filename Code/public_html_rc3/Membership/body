@@ -1,0 +1,51 @@
+<h3>Outspoken Ninja Membership Levels</h3>
+<p>Outspoken Ninja offers several levels of membership.</p>
+<div id="membership">
+
+  <div id="m_guest" class="available">
+    <h4>Guest</h4>
+    <p>Guest level use is free and requires no sign-up.</p>
+    <ul>
+       <li>Search for Autos, Trucks, Motorcycles and Boats for FREE</li>
+       <li>Organize your search results by <em>Dealer</em> or <em>Owner</em> ads.</li>
+       <li>Quickly locate the high and low prices in your results.</li>
+       <li>All results displayed on a single page for rapid review (no paging required!).</li>
+    </ul>
+  </div>
+
+  <div id="m_basic" class="available">
+    <h4>Basic</h4>
+    <p>Basic level use is free, with sign-up.</p>
+    Includes all features of the <b>Guest</b> tools, plus:
+    <ul>
+       <li>Save up to 5 Searches.</li>
+       <li>Ability to restrict search to only the most recent ads.</li>
+       <li>Exclusion filters allow you prevent ads with words you set, from being displayed.</li>
+       <li>Save Search Results as a PDF.</li>
+    </ul>
+     <div id="su_basic" class="su"><button type="button" class="btn_member" name="signup_basic" onClick="signupBasic('f_losu','s_losu');">Sign Up Now<br>For FREE!</button></div>
+  </div>
+<!--
+  <div id="m_premium" class="pending">
+    <h4>Premium <br><em>(available May 2015)</em></h4>
+    <p>Premium level membership is available for a low monthly fee.</p>
+    <ul>
+    </ul>
+  </div>
+
+  <div id="m_pro" class="pending">
+    <h4>Professional <br><em>(available May 2015)</em></h4>
+    <p>Professional level membership is available for an annual fee.</p>
+    <ul>
+    </ul>
+  </div>
+
+  <div id="m_api" class="pending">
+    <h4>API Develpers <br><em>(available July 2015)</em></h4>
+    <p>Contact us for infromation on joining our Developer Network.</p>
+    <ul>
+    </ul>
+  </div>
+-->
+</div>
+

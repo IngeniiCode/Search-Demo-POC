@@ -1,0 +1,86 @@
+{
+    "Egypt": {
+        "cairo": {
+            "name": "Egypt",
+            "geo": {
+                "lat": 26.820553,
+                "lng": 30.802498
+            }
+        }
+    },
+    "Ethiopia": {
+        "addisababa": {
+            "name": "Ethiopia",
+            "geo": {
+                "lat": 9.145,
+                "lng": 40.489673
+            }
+        }
+    },
+    "Ghana": {
+        "accra": {
+            "name": "Ghana",
+            "geo": {
+                "lat": 7.946527,
+                "lng": -1.023194
+            }
+        }
+    },
+    "Kenya": {
+        "kenya": {
+            "name": "Kenya",
+            "geo": {
+                "lat": -0.023559,
+                "lng": 37.906193
+            }
+        }
+    },
+    "Morocco": {
+        "casablanca": {
+            "name": "Morocco",
+            "geo": {
+                "lat": 31.791702,
+                "lng": -7.09262
+            }
+        }
+    },
+    "South Africa": {
+        "capetown": {
+            "name": "Cape Town",
+            "geo": {
+                "lat": -33.9248685,
+                "lng": 18.4240553
+            }
+        },
+        "durban": {
+            "name": "Durban",
+            "geo": {
+                "lat": -29.8586804,
+                "lng": 31.0218404
+            }
+        },
+        "johannesburg": {
+            "name": "Johannesburg",
+            "geo": {
+                "lat": -26.2041028,
+                "lng": 28.0473051
+            }
+        },
+        "pretoria": {
+            "name": "Pretoria",
+            "geo": {
+                "lat": -25.746111,
+                "lng": 28.188056
+            }
+        }
+    },
+    "Tunisia": {
+        "tunis": {
+            "name": "Tunisia",
+            "geo": {
+                "lat": 33.886917,
+                "lng": 9.537499
+            }
+        }
+    }
+}

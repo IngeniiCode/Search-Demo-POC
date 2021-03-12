@@ -1,0 +1,47 @@
+<h2>About the Outspoken Ninja</h2>
+<div id="storybook" style="width:auto;">
+  <div id="storyblob" style="padding-right: 405px;">
+    <div style="float: left; width: auto; position: relative;">
+      <h3>Lifestyle Support Technologies</h3>
+      <p>The goal of the Outspoken Ninja is simple. Provide useful information about products, to our members.</p>
+
+      <p>Using cutting edge search technologies, ratings aggregation and member feedback, our goal is to bring together the information you need to make important decisions about products and servies *you* are interested in.</p>
+
+    <h3>How we got started.</h3>
+    <p>Outspoken Ninja is brain child of Silicon Valley entrepreneurs David DeMartini and Shawn Ooi.</p>
+    <p>Shawn and David are avid collectors of automobiles and motorcycles, as are many people around the world.  Finding those interesting and unique vehciles was a hassle.  Either the search engines would bring up old ads, bring up irrelevant items, or just not have the national, or international reach desired to find what they were looking for.</p>
+    <p>The Ninja Vision is to build tools to support these <s>habits</s> hobbies.  Soon you will be able to test the very same tools Shawn and David, and a select few family and friends have used to find vehicles faster, across the nation (and soon the world), with the click of a single button.</p>
+    <p>This is what being a modern day cyber Ninja is about.  Soon you'll be able to be one too.!</p>
+    </div>
+    <div style="float: left; width:400px; position: relative; margin-right: -100%;">
+    <div id="contact1">
+      <h3>Headquarters</h3>
+      <p><b>Address:</b><br>
+      <u>Outspoken Ninja</u><br>
+      101 Cooper Street<br>
+      Santa Cruz, CA 95060</p>
+      <p><b>Phone:</b><br>
+      831.854-7590</p>
+      <p><b>E-mail Contact:</b><br>
+      <a href="mailto:media@outspoken.ninja.com">media@outspoken.ninja</a></p>
+    </div>
+    <p><b>World Superbike Sponsorship Program 2014</b></p>
+      <div id="promo">
+        <div id="sliderFrame">
+          <div id="slider">
+             <img src="/promo2/01.JPG" alt="Outspoken.Ninja 2014 World Superbike Program" />
+             <img src="/promo2/02.JPG" alt="Outspoken.Ninja 2014 World Superbike Program" />
+             <img src="/promo2/03.JPG" alt="Outspoken.Ninja 2014 World Superbike Program" />
+             <img src="/promo2/04.JPG" alt="Outspoken.Ninja 2014 World Superbike Program" />
+             <img src="/promo2/05.JPG" alt="Outspoken.Ninja 2014 World Superbike Program" />
+             <img src="/promo2/06.JPG" alt="Outspoken.Ninja 2014 World Superbike Program"/>
+          </div>
+          <div id="htmlcaption" style="display: none;">
+            <em>Outspoken.Ninja</em> <a href="https://www.outspoken.ninja/">HERE!</a>.
+          </div>
+         </div>
+      </div>
+    </div>
+  </div>
+</div>
+

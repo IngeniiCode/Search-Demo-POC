@@ -1,0 +1,798 @@
+{
+    "Austria": {
+        "vienna": {
+            "name": "Vienna",
+            "geo": {
+                "lat": 48.2081743,
+                "lng": 16.3738189
+            }
+        }
+    },
+    "Belgium": {
+        "brussels": {
+            "name": "Belgium",
+            "geo": {
+                "lat": 50.503887,
+                "lng": 4.469936
+            }
+        }
+    },
+    "Bulgaria": {
+        "bulgaria": {
+            "name": "Bulgaria",
+            "geo": {
+                "lat": 42.733883,
+                "lng": 25.48583
+            }
+        }
+    },
+    "Croatia": {
+        "zagreb": {
+            "name": "Croatia",
+            "geo": {
+                "lat": 45.1,
+                "lng": 15.2
+            }
+        }
+    },
+    "Czech Republic": {
+        "prague": {
+            "name": "Prague",
+            "geo": {
+                "lat": 50.0755381,
+                "lng": 14.4378005
+            }
+        }
+    },
+    "Denmark": {
+        "copenhagen": {
+            "name": "Copenhagen",
+            "geo": {
+                "lat": 55.6760968,
+                "lng": 12.5683371
+            }
+        }
+    },
+    "Finland": {
+        "helsinki": {
+            "name": "Finland",
+            "geo": {
+                "lat": 61.92411,
+                "lng": 25.748151
+            }
+        }
+    },
+    "France": {
+        "bordeaux": {
+            "name": "Bordeaux",
+            "geo": {
+                "lat": 44.837789,
+                "lng": -0.57918
+            }
+        },
+        "rennes": {
+            "name": "Brittany",
+            "geo": {
+                "lat": 48.2020471,
+                "lng": -2.9326435
+            }
+        },
+        "grenoble": {
+            "name": "Grenoble",
+            "geo": {
+                "lat": 45.188529,
+                "lng": 5.724524
+            }
+        },
+        "lille": {
+            "name": "Lille",
+            "geo": {
+                "lat": 50.62925,
+                "lng": 3.057256
+            }
+        },
+        "loire": {
+            "name": "Loire Valley",
+            "geo": {
+                "lat": 47.887341,
+                "lng": 1.839586
+            }
+        },
+        "lyon": {
+            "name": "Lyon",
+            "geo": {
+                "lat": 45.764043,
+                "lng": 4.835659
+            }
+        },
+        "marseilles": {
+            "name": "Marseille",
+            "geo": {
+                "lat": 43.296482,
+                "lng": 5.36978
+            }
+        },
+        "montpellier": {
+            "name": "Montpellier",
+            "geo": {
+                "lat": 43.610769,
+                "lng": 3.876716
+            }
+        },
+        "cotedazur": {
+            "name": "Nice \/ Cote D'azur",
+            "geo": {
+                "lat": 43.7101728,
+                "lng": 7.2619532
+            }
+        },
+        "rouen": {
+            "name": "Normandy",
+            "geo": {
+                "lat": 48.8798704,
+                "lng": 0.1712529
+            }
+        },
+        "paris": {
+            "name": "Paris",
+            "geo": {
+                "lat": 48.856614,
+                "lng": 2.3522219
+            }
+        },
+        "strasbourg": {
+            "name": "Strasbourg",
+            "geo": {
+                "lat": 48.5734053,
+                "lng": 7.7521113
+            }
+        },
+        "toulouse": {
+            "name": "Toulouse",
+            "geo": {
+                "lat": 43.604652,
+                "lng": 1.444209
+            }
+        }
+    },
+    "Germany": {
+        "berlin": {
+            "name": "Berlin",
+            "geo": {
+                "lat": 52.5200066,
+                "lng": 13.404954
+            }
+        },
+        "bremen": {
+            "name": "Bremen",
+            "geo": {
+                "lat": 53.0792962,
+                "lng": 8.8016937
+            }
+        },
+        "cologne": {
+            "name": "Cologne",
+            "geo": {
+                "lat": 50.937531,
+                "lng": 6.9602786
+            }
+        },
+        "dresden": {
+            "name": "Dresden",
+            "geo": {
+                "lat": 51.0504088,
+                "lng": 13.7372621
+            }
+        },
+        "dusseldorf": {
+            "name": "Dusseldorf",
+            "geo": {
+                "lat": 51.2277411,
+                "lng": 6.7734556
+            }
+        },
+        "essen": {
+            "name": "Essen \/ Ruhr",
+            "geo": {
+                "lat": 51.3659097,
+                "lng": 7.6282792
+            }
+        },
+        "frankfurt": {
+            "name": "Frankfurt",
+            "geo": {
+                "lat": 50.1109221,
+                "lng": 8.6821267
+            }
+        },
+        "hamburg": {
+            "name": "Hamburg",
+            "geo": {
+                "lat": 53.5510846,
+                "lng": 9.9936818
+            }
+        },
+        "hannover": {
+            "name": "Hannover",
+            "geo": {
+                "lat": 52.3758916,
+                "lng": 9.7320104
+            }
+        },
+        "heidelberg": {
+            "name": "Heidelberg",
+            "geo": {
+                "lat": 49.3987524,
+                "lng": 8.6724335
+            }
+        },
+        "kaiserslautern": {
+            "name": "Kaiserslautern",
+            "geo": {
+                "lat": 49.4400657,
+                "lng": 7.7491265
+            }
+        },
+        "leipzig": {
+            "name": "Leipzig",
+            "geo": {
+                "lat": 51.3396955,
+                "lng": 12.3730747
+            }
+        },
+        "munich": {
+            "name": "Munich",
+            "geo": {
+                "lat": 48.1351253,
+                "lng": 11.5819806
+            }
+        },
+        "nuremberg": {
+            "name": "Nuremberg",
+            "geo": {
+                "lat": 49.45203,
+                "lng": 11.07675
+            }
+        },
+        "stuttgart": {
+            "name": "Stuttgart",
+            "geo": {
+                "lat": 48.7758459,
+                "lng": 9.1829321
+            }
+        }
+    },
+    "Greece": {
+        "athens": {
+            "name": "Greece",
+            "geo": {
+                "lat": 39.074208,
+                "lng": 21.824312
+            }
+        }
+    },
+    "Hungary": {
+        "budapest": {
+            "name": "Budapest",
+            "geo": {
+                "lat": 47.497912,
+                "lng": 19.040235
+            }
+        }
+    },
+    "Iceland": {
+        "reykjavik": {
+            "name": "Reykjavik",
+            "geo": {
+                "lat": 64.133333,
+                "lng": -21.933333
+            }
+        }
+    },
+    "Ireland": {
+        "dublin": {
+            "name": "Dublin",
+            "geo": {
+                "lat": 53.3498053,
+                "lng": -6.2603097
+            }
+        }
+    },
+    "Italy": {
+        "bologna": {
+            "name": "Bologna",
+            "geo": {
+                "lat": 44.494887,
+                "lng": 11.3426163
+            }
+        },
+        "florence": {
+            "name": "Florence \/ Tuscany",
+            "geo": {
+                "lat": 43.7695604,
+                "lng": 11.2558136
+            }
+        },
+        "genoa": {
+            "name": "Genoa",
+            "geo": {
+                "lat": 44.4056499,
+                "lng": 8.946256
+            }
+        },
+        "milan": {
+            "name": "Milan",
+            "geo": {
+                "lat": 45.4654219,
+                "lng": 9.1859243
+            }
+        },
+        "naples": {
+            "name": "Napoli \/ Campania",
+            "geo": {
+                "lat": 40.8517746,
+                "lng": 14.2681244
+            }
+        },
+        "perugia": {
+            "name": "Perugia",
+            "geo": {
+                "lat": 43.1107168,
+                "lng": 12.3908279
+            }
+        },
+        "rome": {
+            "name": "Rome",
+            "geo": {
+                "lat": 41.9027835,
+                "lng": 12.4963655
+            }
+        },
+        "sardinia": {
+            "name": "Sardinia",
+            "geo": {
+                "lat": 40.1208752,
+                "lng": 9.0128926
+            }
+        },
+        "sicily": {
+            "name": "Sicilia",
+            "geo": {
+                "lat": 37.5999938,
+                "lng": 14.0153557
+            }
+        },
+        "torino": {
+            "name": "Torino",
+            "geo": {
+                "lat": 45.070312,
+                "lng": 7.6868565
+            }
+        },
+        "venice": {
+            "name": "Venice \/ Veneto",
+            "geo": {
+                "lat": 45.4408474,
+                "lng": 12.3155151
+            }
+        }
+    },
+    "Luxembourg": {
+        "luxembourg": {
+            "name": "Luxembourg",
+            "geo": {
+                "lat": 49.611621,
+                "lng": 6.1319346
+            }
+        }
+    },
+    "Netherlands": {
+        "amsterdam": {
+            "name": "Amsterdam \/ Randstad",
+            "geo": {
+                "lat": 52.3683695,
+                "lng": 5.2072304
+            }
+        }
+    },
+    "Norway": {
+        "oslo": {
+            "name": "Norway",
+            "geo": {
+                "lat": 44.2139566,
+                "lng": -70.5448096
+            }
+        }
+    },
+    "Poland": {
+        "warsaw": {
+            "name": "Poland",
+            "geo": {
+                "lat": 51.919438,
+                "lng": 19.145136
+            }
+        }
+    },
+    "Portugal": {
+        "faro": {
+            "name": "Faro \/ Algarve",
+            "geo": {
+                "lat": 37.0193548,
+                "lng": -7.9304397
+            }
+        },
+        "lisbon": {
+            "name": "Lisbon",
+            "geo": {
+                "lat": 38.7222524,
+                "lng": -9.1393366
+            }
+        },
+        "porto": {
+            "name": "Porto",
+            "geo": {
+                "lat": 41.1579438,
+                "lng": -8.6291053
+            }
+        }
+    },
+    "Romania": {
+        "bucharest": {
+            "name": "Romania",
+            "geo": {
+                "lat": 45.943161,
+                "lng": 24.96676
+            }
+        }
+    },
+    "Russian Federation": {
+        "moscow": {
+            "name": "Moscow",
+            "geo": {
+                "lat": 55.755826,
+                "lng": 37.6173
+            }
+        },
+        "stpetersburg": {
+            "name": "St Petersburg",
+            "geo": {
+                "lat": 59.9342802,
+                "lng": 30.3350986
+            }
+        }
+    },
+    "Spain": {
+        "alicante": {
+            "name": "Alicante",
+            "geo": {
+                "lat": 38.3459963,
+                "lng": -0.4906855
+            }
+        },
+        "baleares": {
+            "name": "Baleares",
+            "geo": {
+                "lat": 39.5341789,
+                "lng": 2.8577105
+            }
+        },
+        "barcelona": {
+            "name": "Barcelona",
+            "geo": {
+                "lat": 41.3850639,
+                "lng": 2.1734035
+            }
+        },
+        "bilbao": {
+            "name": "Bilbao",
+            "geo": {
+                "lat": 43.2630126,
+                "lng": -2.9349852
+            }
+        },
+        "cadiz": {
+            "name": "Cadiz",
+            "geo": {
+                "lat": 36.5270612,
+                "lng": -6.2885962
+            }
+        },
+        "canarias": {
+            "name": "Canarias",
+            "geo": {
+                "lat": 28.2915637,
+                "lng": -16.6291304
+            }
+        },
+        "granada": {
+            "name": "Granada",
+            "geo": {
+                "lat": 37.1773363,
+                "lng": -3.5985571
+            }
+        },
+        "madrid": {
+            "name": "Madrid",
+            "geo": {
+                "lat": 40.4167754,
+                "lng": -3.7037902
+            }
+        },
+        "malaga": {
+            "name": "Malaga",
+            "geo": {
+                "lat": 36.721261,
+                "lng": -4.4212655
+            }
+        },
+        "sevilla": {
+            "name": "Sevilla",
+            "geo": {
+                "lat": 37.3890924,
+                "lng": -5.9844589
+            }
+        },
+        "valencia": {
+            "name": "Valencia",
+            "geo": {
+                "lat": 39.4699075,
+                "lng": -0.3762881
+            }
+        }
+    },
+    "Sweden": {
+        "stockholm": {
+            "name": "Sweden",
+            "geo": {
+                "lat": 60.128161,
+                "lng": 18.643501
+            }
+        }
+    },
+    "Switzerland": {
+        "basel": {
+            "name": "Basel",
+            "geo": {
+                "lat": 47.5674422,
+                "lng": 7.5975507
+            }
+        },
+        "bern": {
+            "name": "Bern",
+            "geo": {
+                "lat": 46.9479222,
+                "lng": 7.4446085
+            }
+        },
+        "geneva": {
+            "name": "Geneva",
+            "geo": {
+                "lat": 46.1983922,
+                "lng": 6.1422961
+            }
+        },
+        "lausanne": {
+            "name": "Lausanne",
+            "geo": {
+                "lat": 46.5199617,
+                "lng": 6.6335971
+            }
+        },
+        "zurich": {
+            "name": "Zurich",
+            "geo": {
+                "lat": 47.3686498,
+                "lng": 8.5391825
+            }
+        }
+    },
+    "Turkey": {
+        "istanbul": {
+            "name": "Turkey",
+            "geo": {
+                "lat": 38.963745,
+                "lng": 35.243322
+            }
+        }
+    },
+    "Ukraine": {
+        "ukraine": {
+            "name": "Ukraine",
+            "geo": {
+                "lat": 48.379433,
+                "lng": 31.16558
+            }
+        }
+    },
+    "United Kingdom": {
+        "aberdeen": {
+            "name": "Aberdeen",
+            "geo": {
+                "lat": 57.149717,
+                "lng": -2.094278
+            }
+        },
+        "bath": {
+            "name": "Bath",
+            "geo": {
+                "lat": 51.375801,
+                "lng": -2.3599039
+            }
+        },
+        "belfast": {
+            "name": "Belfast",
+            "geo": {
+                "lat": 54.597285,
+                "lng": -5.93012
+            }
+        },
+        "birmingham": {
+            "name": "Birmingham \/ West Mids",
+            "geo": {
+                "lat": 52.486243,
+                "lng": -1.890401
+            }
+        },
+        "brighton": {
+            "name": "Brighton",
+            "geo": {
+                "lat": 50.82253,
+                "lng": -0.137163
+            }
+        },
+        "bristol": {
+            "name": "Bristol",
+            "geo": {
+                "lat": 51.454513,
+                "lng": -2.58791
+            }
+        },
+        "cambridge": {
+            "name": "Cambridge, UK",
+            "geo": {
+                "lat": 52.205337,
+                "lng": 0.121817
+            }
+        },
+        "cardiff": {
+            "name": "Cardiff \/ Wales",
+            "geo": {
+                "lat": 51.481581,
+                "lng": -3.17909
+            }
+        },
+        "coventry": {
+            "name": "Coventry",
+            "geo": {
+                "lat": 52.406822,
+                "lng": -1.519693
+            }
+        },
+        "derby": {
+            "name": "Derby",
+            "geo": {
+                "lat": 52.9225301,
+                "lng": -1.4746186
+            }
+        },
+        "devon": {
+            "name": "Devon & Cornwall",
+            "geo": {
+                "lat": 50.3471439,
+                "lng": -4.2186718
+            }
+        },
+        "dundee": {
+            "name": "Dundee",
+            "geo": {
+                "lat": 56.462018,
+                "lng": -2.970721
+            }
+        },
+        "norwich": {
+            "name": "East Anglia",
+            "geo": {
+                "lat": 52.3555177,
+                "lng": -1.1743197
+            }
+        },
+        "eastmids": {
+            "name": "East Midlands",
+            "geo": {
+                "lat": 52.829374,
+                "lng": -1.332134
+            }
+        },
+        "edinburgh": {
+            "name": "Edinburgh",
+            "geo": {
+                "lat": 55.953252,
+                "lng": -3.188267
+            }
+        },
+        "essex": {
+            "name": "Essex",
+            "geo": {
+                "lat": 51.7668369,
+                "lng": 0.4757762
+            }
+        },
+        "glasgow": {
+            "name": "Glasgow",
+            "geo": {
+                "lat": 55.864237,
+                "lng": -4.251806
+            }
+        },
+        "hampshire": {
+            "name": "Hampshire",
+            "geo": {
+                "lat": 51.0895203,
+                "lng": -1.216844
+            }
+        },
+        "kent": {
+            "name": "Kent",
+            "geo": {
+                "lat": 51.2787075,
+                "lng": 0.5217254
+            }
+        },
+        "leeds": {
+            "name": "Leeds",
+            "geo": {
+                "lat": 53.8007554,
+                "lng": -1.5490774
+            }
+        },
+        "liverpool": {
+            "name": "Liverpool",
+            "geo": {
+                "lat": 53.4083714,
+                "lng": -2.9915726
+            }
+        },
+        "london": {
+            "name": "London",
+            "geo": {
+                "lat": 51.5073509,
+                "lng": -0.1277583
+            }
+        },
+        "manchester": {
+            "name": "Manchester",
+            "geo": {
+                "lat": 53.4807593,
+                "lng": -2.2426305
+            }
+        },
+        "newcastle": {
+            "name": "Newcastle \/ NE England",
+            "geo": {
+                "lat": 54.978252,
+                "lng": -1.61778
+            }
+        },
+        "nottingham": {
+            "name": "Nottingham",
+            "geo": {
+                "lat": 52.9547832,
+                "lng": -1.1581086
+            }
+        },
+        "oxford": {
+            "name": "Oxford",
+            "geo": {
+                "lat": 51.7520209,
+                "lng": -1.2577263
+            }
+        },
+        "sheffield": {
+            "name": "Sheffield",
+            "geo": {
+                "lat": 53.381129,
+                "lng": -1.470085
+            }
+        }
+    }
+}

@@ -1,0 +1,107 @@
+Public IP: 205.204.45.243
+ProxyTest::_get http => 0	TITLE: IP:223.68.6.10
+ProxyTest::_test_cl http => 0http workes at 223.68.6.10:8000
+ProxyTest::validate PROXY: Array
+(
+    [host] => 223.68.6.10
+    [port] => 8000
+    [tested_on] => 2015-10-17 21:52:54
+    [anon] => yes
+    [status] => up
+    [proto] => http
+)
+
+ProxyTest::_get http => 0	TITLE: IP:197.220.199.5
+ProxyTest::_test_cl http => 0http workes at 197.220.199.5:443
+ProxyTest::validate PROXY: Array
+(
+    [host] => 197.220.199.5
+    [port] => 443
+    [tested_on] => 2015-10-17 21:52:54
+    [anon] => yes
+    [status] => up
+    [proto] => http
+)
+
+ProxyTest::_get http => 0	TITLE: IP:195.175.201.170
+ProxyTest::_test_cl http => 0	TITLE: IP:195.175.201.170
+http workes at 195.175.201.170:8080
+ProxyTest::validate PROXY: Array
+(
+    [host] => 195.175.201.170
+    [port] => 8080
+    [tested_on] => 2015-10-17 21:52:54
+    [anon] => yes
+    [status] => up
+    [proto] => http
+)
+
+ProxyTest::_get http => 0	TITLE: IP:82.44.143.11
+ProxyTest::_test_cl http => 0	TITLE: IP:82.44.143.11
+http workes at 194.83.240.11:8080
+ProxyTest::validate PROXY: Array
+(
+    [host] => 194.83.240.11
+    [port] => 8080
+    [tested_on] => 2015-10-17 21:52:54
+    [anon] => yes
+    [status] => up
+    [proto] => http
+)
+
+ProxyTest::_get http => 0	TITLE: IP:58.253.238.242
+ProxyTest::_test_cl http => 0	TITLE: IP:58.253.238.242
+http workes at 58.253.238.242:80
+ProxyTest::validate PROXY: Array
+(
+    [host] => 58.253.238.242
+    [port] => 80
+    [tested_on] => 2015-10-17 21:52:54
+    [anon] => yes
+    [status] => up
+    [proto] => http
+)
+
+ProxyTest::_get http => 0	NO HTML
+ProxyTest::_get socks => 4	NO HTML
+ProxyTest::_get socks5 => 5	NO HTML
+ProxyTest::_get socks5h => 7	NO HTML
+ProxyTest::validate PROXY: Array
+(
+    [host] => 58.96.168.124
+    [port] => 1080
+    [tested_on] => 2015-10-17 21:52:54
+    [anon] => no
+    [status] => down
+    [cl_safe] => no
+)
+
+ProxyTest::_get http => 0	NO HTML
+ProxyTest::_get socks => 4	NO HTML
+ProxyTest::_get socks5 => 5	NO HTML
+ProxyTest::_get socks5h => 7	NO HTML
+ProxyTest::validate PROXY: Array
+(
+    [host] => 59.66.177.97
+    [port] => 1080
+    [tested_on] => 2015-10-17 21:52:54
+    [anon] => no
+    [status] => down
+    [cl_safe] => no
+)
+
+ProxyTest::_get http => 0	NO HTML
+ProxyTest::_get socks => 4	NO HTML
+ProxyTest::_get socks5 => 5	NO HTML
+ProxyTest::_get socks5h => 7	NO HTML
+ProxyTest::validate PROXY: Array
+(
+    [host] => 59.71.135.250
+    [port] => 1080
+    [tested_on] => 2015-10-17 21:52:54
+    [anon] => no
+    [status] => down
+    [cl_safe] => no
+)
+
+ProxyTest::_get http => 0Public IP: 24.4.229.225

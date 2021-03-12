@@ -1,0 +1,52 @@
+
+<!-- Tabulation Nation -->
+
+<script>
+$(function() {
+	$( "#searchOptions" ).tabs({
+		beforeLoad: function( event, ui ) {
+			ui.jqXHR.error(function() {
+			});
+		}
+	});
+});
+</script>
+<div id="doorMat"></div>
+<div id="searchBody">
+  <h2>Ninja Search Reporting Tools <span style="font-size: .65em; vertical-align:top;"></h2>
+    <div id="searchOptions">
+	<ul>
+		<li><a href="#savedSearches" name="saved"      onClick="loadSavedSearches('savedSearches');">Saved Searches</a></li> 
+		<li><a href="#searchForm"    name="car"        onClick="loadSearchForm('searchForm','car');">Cars</a></li>
+		<li><a href="#searchForm"    name="truck"      onClick="loadSearchForm('searchForm','truck');">Trucks</a></li>
+		<li><a href="#searchForm"    name="motorcycle" onClick="loadSearchForm('searchForm','motorcycle');">Motorcycles</a></li>
+		<li><a href="#searchForm"    name="boat"       onClick="loadSearchForm('searchForm','boat');">Marine</a></li>
+	</ul>
+	<div id="savedSearches" class="searcher"><h3>Saved Searches</h3><p>Saving your Searches is a powerful feature, and available to all Registered Members.</p><p><a href="/Membership" target="_members"><b>Sign-up Now for Free!</b></a></p></div> 
+	<div id="searchForm" class="searcher"></div>
+    </div>
+</div>
+
+<div id='searchDiv'>
+  <div id='searchMetrics'>
+    <div id='searchMetricsStatus' class="searchMetricsBlock"><u>Search Status:</u></div>
+    <div id='searchMetricsType'   class="searchMetricsBlock"><u>Ads by Type:</u></div>
+    <div id='searchMetricsPrice'  class="searchMetricsBlock"><u>Ads by Price Range:</u></div>
+    <div id='searchTools'         class="searchMetricsBlock"><u>Report Tools</u>
+       <div id="searchToolsList" class="tools_list"></div>
+    </div> 
+<!--    <div id='searchMetricsGeography' class="searchMetricsBlock"><u>Ads by Geography</u></div> -->
+  </div>
+  <div id='searchResults'></div>
+</div>
+<div id="PDFOUT"></div>
+
+<script type="text/javascript" src="/js/analytics.search.js"></script>
+<script>
+loadSavedSearches('savedSearches');
+$("#MMH").submit(function(){
+        $("#MMHD").val($("#searchResults").html());
+});
+setLandingTabs();
+</script>
+

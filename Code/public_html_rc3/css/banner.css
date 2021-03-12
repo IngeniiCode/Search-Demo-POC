@@ -1,0 +1,74 @@
+
+#banner {
+  margin: 0px 0px 2px 0px;
+  overflow: hidden;
+   -webkit-border-radius: 8px; border-radius: 8px; border: 1px solid #E8E8E8; padding: 4px 4px;
+  background-image: -webkit-gradient(
+    linear,
+    right bottom,
+    left top,
+    color-stop(0.39, #E8E8E8),
+    color-stop(0.84, #FFFFFF)
+  );
+  background-image: -o-linear-gradient(left top, #E8E8E8 39%, #FFFFFF 84%);
+  background-image: -moz-linear-gradient(left top, #E8E8E8 39%, #FFFFFF 84%);
+  background-image: -webkit-linear-gradient(left top, #E8E8E8 39%, #FFFFFF 84%);
+  background-image: -ms-linear-gradient(left top, #E8E8E8 39%, #FFFFFF 84%);
+  background-image: linear-gradient(to left top, #E8E8E8 39%, #FFFFFF 84%);
+}
+
+.btable {
+  width: 100%;
+  border-spacing: 0px;
+  border-collapse: separate;
+  margin: 0px;
+  padding: 0px;
+  border: 2px; 
+}
+
+.wide {
+  width: 99%;
+}
+
+#banner_img {
+   float: left; 
+}
+
+#fb_login {
+   top: 10px;
+   float: right;
+}
+
+#fb-root {
+   float: right;
+}
+
+.fb-like {
+   float: right;
+}
+
+.login_status {
+    color: #a33;
+    margin-left: 12px;
+}
+
+#profile {
+   padding: 0px 10px;
+   margin: 0px;
+   float: right; 
+}
+
+#banner_block_left {
+  float: left;
+}
+
+#banner_block_right {
+  float: right;
+}
+
+/*  L O G O  B A N N E R   */
+/*#site_logo img { float: left; margin: 0 1em 1em 0; }*/
+#site_logo img { float: left; margin: 0; }
+/*#logotext { font: bold 26pt Orbitron, Days One, Impact, Charcoal, sans-serif; letter-spacing: 0.15em; }*/
+#logotext { font: bold 22pt Orbitron, Days One, Impact, Charcoal, sans-serif; letter-spacing: 0.15em; }
+#logotext { font: bold 26pt Syncopate, Orbitron, Days One, Impact, Charcoal, sans-serif; letter-spacing: 0.15em; }

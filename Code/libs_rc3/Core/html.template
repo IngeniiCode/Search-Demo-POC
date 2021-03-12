@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head> 
+<meta charset="utf-8">
+
+<style>
+body { margin: 0px;font-family: Verdana, 'Open Sans', sans-serif;font-size: 11px;color: #333;background-color:#F8F8F8;padding: 5px;width: auto; }
+#banner { margin: 0px 0px 2px 0px; overflow: hidden; -webkit-border-radius: 8px; border-radius: 8px; border: 1px solid #E8E8E8; padding: 4px 4px;background-image: -webkit-gradient(linear, right bottom, left top, color-stop(0.39, #E8E8E8), color-stop(0.84, #FFFFFF));background-image: -o-linear-gradient(left top, #E8E8E8 39%, #FFFFFF 84%);background-image: -moz-linear-gradient(left top, #E8E8E8 39%, #FFFFFF 84%);background-image: -webkit-linear-gradient(left top, #E8E8E8 39%, #FFFFFF 84%);background-image: -ms-linear-gradient(left top, #E8E8E8 39%, #FFFFFF 84%);background-image: linear-gradient(to left top, #E8E8E8 39%, #FFFFFF 84%);
+#message { margin: 0px 0px 2px 0px; overflow: hidden; -webkit-border-radius: 8px; border-radius: 8px; border: 1px solid #aaa; padding: 4px 4px;background-image: -webkit-gradient(linear, right bottom, left top, color-stop(0.39, #ccc), color-stop(0.84, #eee));background-image: -o-linear-gradient(left top, #ccc 39%, #eee 84%);background-image: -moz-linear-gradient(left top, #ccc 39%, #eee 84%);background-image: -webkit-linear-gradient(left top, #ccc 39%, #eee 84%);background-image: -ms-linear-gradient(left top, #ccc 39%, #eee 84%);background-image: linear-gradient(to left top, #ccc 39%, #eee 84%);
+}
+</style>
+</head>
+<body>
+<div id="banner">
+  <div id="site_logo"><a href="https://www.outspoken.ninja/"><img src="https://www.outspoken.ninja/_mm/l.png" alt="Outspoken.Ninja -- HOME"></a></div>
+</div>
+<div id="message">
+#__HTML__#
+</div>
+</body>
+</html>
+

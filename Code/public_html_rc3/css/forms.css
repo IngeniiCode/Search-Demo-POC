@@ -1,0 +1,43 @@
+/* I N P U T S */
+input {
+  margin: 2px;
+  font-size: 90%;
+}
+
+.input_text {
+    border: 1px solid #888;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -webkit-box-shadow:
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1);
+    -moz-box-shadow:
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1);
+    box-shadow:
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1);
+    padding: 2px;
+    background: rgba(255,255,255,0.5);
+}
+/* size booster for certain input boxes */
+.input-em-1_6 input { font-size: 1.6em; }
+
+.cbx_option {
+    border: 1px solid #888;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -webkit-box-shadow:
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1);
+    -moz-box-shadow:
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1);
+    box-shadow:
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1);
+    padding: 2px;
+    background: rgba(255,255,255,0.5);
+}
+
+

@@ -1,0 +1,164 @@
+select * from (select ip,count(*) as ct from accessLog_Hisotry1 group by ip) ips order by ct asc;
+
+select access,count(*) FROM (select distinct ip,DATE_FORMAT(`when`,'%Y%m%d') as access from accessLog_Hisotry1) lg group by access order by access asc;
+
+select * from (select page,count(*) as ct from accessLog_Hisotry1 group by page) pg order by ct asc;
+
+select * from (select page,count(*) as ct from accessLog group by page) pg order by ct asc;
+
+/*
+
+a way to get some IP geolocation data (should cache this stuff in own database)
+
+http://whatismyipaddress.com/ip/50.136.158.76
+
+http://whatismyipaddress.com/ip/67.164.108.5
+
+modify the table to store lat/long and run batch to update them on a weekly basis.
+
+*/
+
+
+
+We are happy to announce the Beta release of the Outspoken Ninja Vehicle Location pages.
+
+https://www.outspokenninja.com/Tools/
+
+Using the search tool is encouraged. We are moving rapidly to the final product. Our internal usability testing is complete, and now it's time to validate our findings with the users we intend to service.
+
+You're feed back can be sent to us directly (see our contact page) or comments can be added to this post.
+
+Beta testing will be open through the end of February 2015. We look forward to your feedback and suggestions, both good and bad.
+
+- Outspoken Ninja
+
+
+
+
+alter table  accessLog_Hisotry1 change `when` dtime timestamp;
+alter table  accessLog change `when` dtime timestamp;
+alter table searchHistory change `when` dtime timestamp;
+
+
+
+
+
+http://solrcluster-1910154206.us-east-1.elb.amazonaws.com/solr/app_searchb/select?q=status%3A%22A%22&wt=json&indent=true
+
+
+
+rsync --rsh=ssh -uavz --delete /Users/david/Development/ONinja/Code/public_html_prime/ outspokenninja@74.208.67.233:httpdocs ; rsync --rsh=ssh -uavz --delete /Users/david/Development/ONinja/Code/libs_prime/ outspokenninja@74.208.67.233:libs
+
+
+yum install libicu-dev gperf bison libjpeg-dev
+
+
+
+
+//*[@id="yui_3_10_0_1_1423293857350_324"]
+
+#yui_3_10_0_1_1423293857350_324
+
+https://search.yahoo.com/local/s;_ylt=AwrTccOpyNVUh2oACcEnnIlQ?p=drug+rehab&addr=Salt+Lake+City%2C+UT+84101&hspart=mozilla&hsimp=yhs-001&fr=yhs-mozilla-001&pstart=1&b=1
+
+NEXT: https://search.yahoo.com/local/s;_ylt=AwrTWfwMy9VUvEYAA9spnIlQ?p=drug+rehab&fr=yhs-mozilla-001&addr=Salt+Lake+City%2C+UT+84101&hsimp=yhs-001&hspart=mozilla&xargs=0&pstart=1&b=16
+
+PAGE2: https://search.yahoo.com/local/s;_ylt=AwrSyCO.yNVUJGEANKQpnIlQ?p=drug+rehab&fr=yhs-mozilla-001&addr=Salt+Lake+City%2C+UT+84101&hsimp=yhs-001&hspart=mozilla&xargs=0&pstart=1&b=16
+
+PAGE3: https://search.yahoo.com/local/s;_ylt=AwrSyCO.yNVUJGEANaQpnIlQ?p=drug+rehab&fr=yhs-mozilla-001&addr=Salt+Lake+City%2C+UT+84101&hsimp=yhs-001&hspart=mozilla&xargs=0&pstart=1&b=31
+
+
+
+{
+  "id":            "2",
+  "engine_url":    "some junk url",
+  "srvc_mhs":      "yes",
+  "srvc_mds":      "yes",
+  "srvc_dc":       "yes",
+  "engine_origin": "google",
+  "provider_id":   "1234A",
+  "name":          "ABC Services"
+}
+
+
+
+
+#body-content > div.main-content > div > div:nth-child(1) > div > h1 > a.see-more.play-button.small.id-track-click.apps.id-responsive-see-more
+
+
+grep 'http://www.windowsphone.com/en-us/store/app' x | sort -u | sed "s/^.*data-ov2='//g" | cut -d' ' -f1 | sed "s/'//g" > w1
+grep 'http://www.windowsphone.com/en-us/store/app' x2 | sort -u | sed "s/^.*data-ov2='//g" | cut -d' ' -f1 | sed "s/'//g" > w2
+
+
+node google.terms.js '
+
+
+node google.terms.js 'Diamond Digger' >> x
+node google.terms.js 'Farm heroes' >> x
+node google.terms.js 'Bubble Witch' >> x
+node google.terms.js 'Pet Rescue' >> x
+node google.terms.js 'Candy Soda' >> x
+node google.terms.js 'Papa Pear' >> x
+
+
+nohup node windows.terms.js 'saga' >> win &
+nohup node windows.terms.js 'Diamond Digger' >> win &
+nohup node windows.terms.js 'Farm heroes' >> win &
+nohup node windows.terms.js 'Bubble Witch' >> win &
+nohup node windows.terms.js 'Pet Rescue' >> win &
+nohup node windows.terms.js 'Candy Soda' >> win &
+nohup node windows.terms.js 'Papa Pear' >> win &
+
+
+(1 ,'Alabama','AL', 5 ),
+(2,'Alaska','AK',1),
+(3,'Arizona','AZ', 1 ),
+(4,'Arkansas','AR', 5 ),
+(5,'California','CA',1),
+(6,'Colorado','CO',3 ),
+(7,'Connecticut','CT', 7),
+(8,'Delaware','DE', 6 ),
+(9 ,'Florida','FL', 5 ),
+(10 ,'Georgia','GA', 5 ),
+(11 ,'Hawaii','HI', , ),
+(12 ,'Idaho','ID', 2 ),
+(13 ,'Illinois','IL', 4 ),
+(14 ,'Indiana','IN', 6 ),
+(15 ,'Iowa','IA', 4 ),
+(16 ,'Kansas','KS', 3 ),
+(17,'Kentucky','KY', 6 ),
+(18 ,'Louisiana','LA', 5 ),
+(19 ,'Maine','ME', 7 ),
+(20 ,'Maryland','MD', 6 ),
+(21,'Massachusetts','MA', 7 ),
+(22 ,'Michigan','MI', 6 ),
+(23 ,'Minnesota','MN',4 ),
+(24,'Mississippi','MS', 5 ),
+(25,'Missouri','MO',4 ),
+(26 ,'Montana','MT', 2 ),
+(27 ,'Nebraska','NE', 4 ),
+(28 ,'Nevada','NV', 1 ),
+(29 ,'New Hampshire','NH', 7 ),
+(30 ,'New Jersey','NJ', 7 ),
+(31 ,'New Mexico','NM', 3 ),
+(32 ,'New York','NY', 7 ),
+(33 ,'North Carolina','NC', 6 ),
+(34 ,'North Dakota','ND', 4 ),
+(35 ,'Ohio','OH', 6 ),
+(36 ,'Oklahoma','OK', 3 ),
+(37 ,'Oregon','OR', 2 ),
+(38 ,'Pennsylvania[','PA', 7 ),
+(39 ,'Rhode Island','RI', 7 ),
+(40 ,'South Carolina','SC', 5 ),
+(41 ,'South Dakota','SD', 4 ),
+(42 ,'Tennessee','TN', 6 ),
+(43 ,'Texas','TX', 3 ),
+(44 ,'Utah','UT',1 ),
+(45 ,'Vermont','VT', 7 ),
+(46 ,'Virginia','VA', 6 ),
+(47 ,'Washington','WA', 2 ),
+(48 ,'West Virginia','WV', 6 ),
+(49 ,'Wisconsin','WI', 4 ),
+(50 ,'Wyoming','WY', 2 ),
+(51 ,'Washington D.C.','DC', 6);
+

@@ -1,0 +1,24 @@
+
+<div id="doorMat"></div>
+<div id="searchBody">
+  <h2>Ninja Search - Find me something cool! <span style="font-size: .65em; vertical-align:top;"></h2>
+    <div id="searchOptions">
+        <!-- Search Dialog Appears Here -->
+	<div id="searchForm" class="searcher"></div>
+    </div>
+</div>
+
+<div id='searchDiv'>
+  <div id='searchMetrics'>
+    <div id='searchMetricsStatus' class="searchMetricsBlock"><u>Search Status:</u></div>
+    <div id='searchMetricsType'   class="searchMetricsBlock"><u>Ads by Type:</u></div>
+    <div id='searchMetricsPrice'  class="searchMetricsBlock"><u>Ads by Price Range:</u></div>
+    <div id='searchTools'         class="searchMetricsBlock"><u>Report Tools</u>
+       <div id="searchToolsList" class="tools_list"></div>
+    </div> 
+<!--    <div id='searchMetricsGeography' class="searchMetricsBlock"><u>Ads by Geography</u></div> -->
+  </div>
+  <div id='searchResults'></div>
+</div>
+<div id="PDFOUT"></div>
+

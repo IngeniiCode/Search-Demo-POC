@@ -1,0 +1,22 @@
+.announcement {
+   text-align: left;
+   color: #800000;
+   -webkit-border-radius: 15px;
+   border-radius: 6px;
+   border: 1px solid #800000;
+   margin-top: 10px;
+   padding: 6px 6px;
+}
+
+.announcement h3, .announcement h4, .announcement h5, .announcement h6 {
+        margin: 2px;
+        padding: 0px;
+        text-alight: center;
+}
+
+.annouce_img {
+   -webkit-border-radius: 15px;
+   border-radius: 6px;
+   border: 1px solid #aaa;
+   padding: 4px;
+}

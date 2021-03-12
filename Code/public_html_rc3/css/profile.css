@@ -1,0 +1,42 @@
+.profile {
+   text-align: left;
+   color: #333;
+   -webkit-border-radius: 12px;
+   border-radius: 12px;
+   border: 1px solid #888;
+   margin: 0px 10px 10px 10px;
+   padding: 3px 3px;
+   /*position: relative;*/
+   background-image: -webkit-gradient(
+	linear,
+	left bottom,
+	left top,
+	color-stop(0, #E0E0DD),
+	color-stop(1, #FAF9E6)
+   );
+   background-image: -o-linear-gradient(top, #E0E0DD 0%, #FAF9E6 100%);
+   background-image: -moz-linear-gradient(top, #E0E0DD 0%, #FAF9E6 100%);
+   background-image: -webkit-linear-gradient(top, #E0E0DD 0%, #FAF9E6 100%);
+   background-image: -ms-linear-gradient(top, #E0E0DD 0%, #FAF9E6 100%);
+   background-image: linear-gradient(to top, #E0E0DD 0%, #FAF9E6 100%);
+}
+
+#profile {
+  width: 100%;
+  position: relative;
+}
+
+#profile_login {
+   float: left;
+   text-align: center;
+}
+
+#profile_signup {
+   float: left;
+   text-align: center;
+}
+
+.saved_searches {
+   list-style-type: none;
+}
+

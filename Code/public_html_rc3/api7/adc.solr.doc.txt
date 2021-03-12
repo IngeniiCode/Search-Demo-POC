@@ -1,0 +1,36 @@
+
+DOC DEF
+
+   <!--  D O C U M E N T   I D E N T I F I C A T I O N  -->
+   <field name="id" type="string" indexed="true" stored="true" required="true" multiValued="false" />
+   <field name="last_modified" type="date" indexed="true" stored="true"/>
+   <field name="discovered" type="date" indexed="true" stored="true"/>
+
+   <!--  W E B   P R E S E N C E  -->
+   <field name="engine_origin" type="string" indexed="true" stored="true" omitNorms="true"/>
+   <field name="engine_url" type="string" indexed="false" stored="true" omitNorms="true"/>
+   <field name="home_url" type="string" indexed="false" stored="true" omitNorms="true"/>
+   <field name="info_url" type="string" indexed="false" stored="true" omitNorms="true"/>
+   <field name="services_url" type="string" indexed="false" stored="true" omitNorms="true"/>
+   <field name="hours_url" type="string" indexed="false" stored="true" omitNorms="true"/>
+   <field name="home_html" type="text_general" indexed="true" stored="true"/>
+
+   <!--  P R O V I D E R   I N F O R M A T I O N -->
+   <field name="provider_id" type="string" indexed="true" stored="true" omitNorms="true"/>
+   <field name="name" type="text_general" indexed="true" stored="true"/>
+   <field name="desc_short" type="text_general" indexed="true" stored="true"/>
+   <field name="services" type="text_general" indexed="true" stored="true" multiValued="true"/>
+   <field name="services_ids" type="text_general" indexed="true" stored="true" multiValued="true"/>
+
+   <!--  P R O V I D E R   G E O   C O D I N G  -->
+   <field name="address_mashup" type="text_general" indexed="true" stored="true"/>
+   <field name="addr_street" type="string" indexed="true" stored="true"/>
+   <field name="addr_city" type="string" indexed="true" stored="true"/>
+   <field name="addr_state" type="string" indexed="true" stored="true"/>
+   <field name="addr_postal" type="int" indexed="true" stored="true"/>
+   <field name="addr_latitude" type="float" indexed="true" stored="true"/>
+   <field name="addr_longitude" type="float" indexed="true" stored="true"/>
+   <field name="geolocation" type="location" indexed="true" stored="true"/>
+
+
+

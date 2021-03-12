@@ -1,0 +1,412 @@
+{
+    "Alberta": {
+        "calgary": {
+            "name": "Calgary",
+            "geo": {
+                "lat": 51.0486151,
+                "lng": -114.0708459
+            }
+        },
+        "edmonton": {
+            "name": "Edmonton",
+            "geo": {
+                "lat": 53.544389,
+                "lng": -113.4909267
+            }
+        },
+        "ftmcmurray": {
+            "name": "Ft Mcmurray",
+            "geo": {
+                "lat": 56.7263796,
+                "lng": -111.3803407
+            }
+        },
+        "lethbridge": {
+            "name": "Lethbridge",
+            "geo": {
+                "lat": 49.69349,
+                "lng": -112.84184
+            }
+        },
+        "hat": {
+            "name": "Medicine Hat",
+            "geo": {
+                "lat": 50.0405486,
+                "lng": -110.6764258
+            }
+        },
+        "peace": {
+            "name": "Peace River Country",
+            "geo": {
+                "lat": 53.9332706,
+                "lng": -116.5765035
+            }
+        },
+        "reddeer": {
+            "name": "Red Deer",
+            "geo": {
+                "lat": 52.2681118,
+                "lng": -113.8112386
+            }
+        }
+    },
+    "British Columbia": {
+        "cariboo": {
+            "name": "Cariboo",
+            "geo": {
+                "lat": 52.4031805,
+                "lng": -123.4553619
+            }
+        },
+        "comoxvalley": {
+            "name": "Comox Valley",
+            "geo": {
+                "lat": 49.7064188,
+                "lng": -125.021945
+            }
+        },
+        "abbotsford": {
+            "name": "Fraser Valley",
+            "geo": {
+                "lat": 49.3764104,
+                "lng": -121.8159307
+            }
+        },
+        "kamloops": {
+            "name": "Kamloops",
+            "geo": {
+                "lat": 50.674522,
+                "lng": -120.3272674
+            }
+        },
+        "kelowna": {
+            "name": "Kelowna \/ Okanagan",
+            "geo": {
+                "lat": 49.8879519,
+                "lng": -119.4960106
+            }
+        },
+        "cranbrook": {
+            "name": "Kootenays",
+            "geo": {
+                "lat": 49.5211148,
+                "lng": -115.7521883
+            }
+        },
+        "nanaimo": {
+            "name": "Nanaimo",
+            "geo": {
+                "lat": 49.1658836,
+                "lng": -123.9400647
+            }
+        },
+        "princegeorge": {
+            "name": "Prince George",
+            "geo": {
+                "lat": 53.9170641,
+                "lng": -122.7496693
+            }
+        },
+        "skeena": {
+            "name": "Skeena-bulkley",
+            "geo": {
+                "lat": 54.7882676,
+                "lng": -127.164868
+            }
+        },
+        "sunshine": {
+            "name": "Sunshine Coast",
+            "geo": {
+                "lat": 49.7604377,
+                "lng": -123.7643986
+            }
+        },
+        "vancouver": {
+            "name": "Vancouver",
+            "geo": {
+                "lat": 49.2827291,
+                "lng": -123.1207375
+            }
+        },
+        "victoria": {
+            "name": "Victoria",
+            "geo": {
+                "lat": 48.4284207,
+                "lng": -123.3656444
+            }
+        },
+        "whistler": {
+            "name": "Whistler",
+            "geo": {
+                "lat": 50.1163196,
+                "lng": -122.9573563
+            }
+        }
+    },
+    "Manitoba": {
+        "winnipeg": {
+            "name": "Winnipeg",
+            "geo": {
+                "lat": 49.8997541,
+                "lng": -97.1374937
+            }
+        }
+    },
+    "New Brunswick": {
+        "newbrunswick": {
+            "name": "New Brunswick",
+            "geo": {
+                "lat": 46.5653163,
+                "lng": -66.4619164
+            }
+        }
+    },
+    "Newfoundland and Labrador": [],
+    "Newfoundland And Labrador": {
+        "newfoundland": {
+            "name": "St John's",
+            "geo": {
+                "lat": 47.5605413,
+                "lng": -52.7128315
+            }
+        }
+    },
+    "Northwest Territories": {
+        "territories": {
+            "name": "Territories",
+            "geo": {
+                "lat": 64.8255441,
+                "lng": -124.8457334
+            }
+        },
+        "yellowknife": {
+            "name": "Yellowknife",
+            "geo": {
+                "lat": 62.4539717,
+                "lng": -114.3717886
+            }
+        }
+    },
+    "Nova Scotia": {
+        "halifax": {
+            "name": "Halifax",
+            "geo": {
+                "lat": 44.6488625,
+                "lng": -63.5753196
+            }
+        }
+    },
+    "Ontario": {
+        "barrie": {
+            "name": "Barrie",
+            "geo": {
+                "lat": 44.3893556,
+                "lng": -79.6903316
+            }
+        },
+        "belleville": {
+            "name": "Belleville",
+            "geo": {
+                "lat": 44.1627589,
+                "lng": -77.3832315
+            }
+        },
+        "brantford": {
+            "name": "Brantford-woodstock",
+            "geo": {
+                "lat": 43.1314966,
+                "lng": -80.7471651
+            }
+        },
+        "chatham": {
+            "name": "Chatham-kent",
+            "geo": {
+                "lat": 42.4048028,
+                "lng": -82.1910378
+            }
+        },
+        "cornwall": {
+            "name": "Cornwall",
+            "geo": {
+                "lat": 45.0212762,
+                "lng": -74.730345
+            }
+        },
+        "guelph": {
+            "name": "Guelph",
+            "geo": {
+                "lat": 43.5448048,
+                "lng": -80.2481666
+            }
+        },
+        "hamilton": {
+            "name": "Hamilton-burlington",
+            "geo": {
+                "lat": 43.3255196,
+                "lng": -79.7990319
+            }
+        },
+        "kingston": {
+            "name": "Kingston",
+            "geo": {
+                "lat": 44.2311717,
+                "lng": -76.4859544
+            }
+        },
+        "kitchener": {
+            "name": "Kitchener-waterloo-cambridge",
+            "geo": {
+                "lat": 43.4565521,
+                "lng": -80.4638552
+            }
+        },
+        "londonon": {
+            "name": "London ",
+            "geo": {
+                "lat": 42.9869502,
+                "lng": -81.243177
+            }
+        },
+        "niagara": {
+            "name": "Niagara Region",
+            "geo": {
+                "lat": 43.0895577,
+                "lng": -79.0849436
+            }
+        },
+        "ottawa": {
+            "name": "Ottawa-hull-gatineau",
+            "geo": {
+                "lat": 45.428731,
+                "lng": -75.7133658
+            }
+        },
+        "owensound": {
+            "name": "Owen Sound",
+            "geo": {
+                "lat": 44.5690305,
+                "lng": -80.9405602
+            }
+        },
+        "peterborough": {
+            "name": "Peterborough",
+            "geo": {
+                "lat": 44.309058,
+                "lng": -78.319747
+            }
+        },
+        "sarnia": {
+            "name": "Sarnia",
+            "geo": {
+                "lat": 42.974536,
+                "lng": -82.4065901
+            }
+        },
+        "soo": {
+            "name": "Sault Ste Marie",
+            "geo": {
+                "lat": 46.521858,
+                "lng": -84.3460896
+            }
+        },
+        "sudbury": {
+            "name": "Sudbury",
+            "geo": {
+                "lat": 46.49,
+                "lng": -81.01
+            }
+        },
+        "thunderbay": {
+            "name": "Thunder Bay",
+            "geo": {
+                "lat": 48.3808951,
+                "lng": -89.2476823
+            }
+        },
+        "toronto": {
+            "name": "Toronto",
+            "geo": {
+                "lat": 43.653226,
+                "lng": -79.3831843
+            }
+        },
+        "windsor": {
+            "name": "Windsor",
+            "geo": {
+                "lat": 42.3149367,
+                "lng": -83.0363633
+            }
+        }
+    },
+    "Prince Edward Island": {
+        "pei": {
+            "name": "Prince Edward Island",
+            "geo": {
+                "lat": 46.510712,
+                "lng": -63.4168136
+            }
+        }
+    },
+    "Quebec": {
+        "montreal": {
+            "name": "Montreal",
+            "geo": {
+                "lat": 45.5016889,
+                "lng": -73.567256
+            }
+        },
+        "quebec": {
+            "name": "Quebec City",
+            "geo": {
+                "lat": 46.8032826,
+                "lng": -71.242796
+            }
+        },
+        "saguenay": {
+            "name": "Saguenay",
+            "geo": {
+                "lat": 48.4280529,
+                "lng": -71.0684923
+            }
+        },
+        "sherbrooke": {
+            "name": "Sherbrooke",
+            "geo": {
+                "lat": 45.4009928,
+                "lng": -71.8824288
+            }
+        },
+        "troisrivieres": {
+            "name": "Trois-rivieres",
+            "geo": {
+                "lat": 46.3432397,
+                "lng": -72.5432834
+            }
+        }
+    },
+    "Saskatchewan": {
+        "regina": {
+            "name": "Regina",
+            "geo": {
+                "lat": 50.454722,
+                "lng": -104.606667
+            }
+        },
+        "saskatoon": {
+            "name": "Saskatoon",
+            "geo": {
+                "lat": 52.1332144,
+                "lng": -106.6700458
+            }
+        }
+    },
+    "Yukon Territory": {
+        "whitehorse": {
+            "name": "Whitehorse",
+            "geo": {
+                "lat": 60.7211871,
+                "lng": -135.0568449
+            }
+        }
+    }
+}

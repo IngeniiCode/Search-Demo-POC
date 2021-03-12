@@ -1,0 +1,30 @@
+.dashboard_metrics {
+   -webkit-border-radius: 8px;
+   border-radius: 8px;
+   border: 1px solid #484;
+   padding: 2px;
+   margin: 4px;
+   box-shadow: 1px 1px 3px 1px #040;
+   overflow: hidden;
+   float: left;
+}
+
+.dashboard {
+   -webkit-border-radius: 12px;
+   border-radius: 12px;
+   border: 2px solid #6a6;
+   padding: 2px;
+   overflow: hidden;
+   width: 95%:
+   left: auto;
+   right: auto;
+   clear: both;
+}
+.dashboard .title { font-size: 110%; padding: 2px 6px; }
+
+#dashboard_admin {
+   border: 2px solid #6a6;
+}
+#dashboard_guest {
+   border: 2px solid #6a6;
+}

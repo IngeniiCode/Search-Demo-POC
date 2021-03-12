@@ -1,0 +1,51 @@
+/*  M E N U S  */
+
+#menu {
+   float: left;
+   clear: left;
+   margin: 0;
+   padding: 4px 0px;
+   background-color: #f8f8f8;
+   background-color: inherit;
+   width: 100%;
+   font: normal 8pt Syncopate, Orbitron, Days One, Impact, Charcoal, sans-serif;
+   /* letter-spacing: .1em; */
+}
+#menu ul {
+   list-style-type: none;
+   float: left;
+   margin: 4px 0px;
+   margin: 0;
+   padding: 0;
+}
+#menu ul li { 
+  float: left; 
+}
+
+.menu_hidden { display: none; }
+.menu_visible { display: block; }
+
+.btn_menu {
+    margin: 4px;
+    padding: 3px 6px; 
+    color: #efefef;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;  
+    border: 1px solid #2f333f; 
+/*
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;  
+    border: 1px solid #aaa; 
+    box-shadow: 1px 1px 2px 1px #aaa; 
+*/
+    cursor: pointer;
+}
+.btn_menu:hover {
+    background-color: #580000;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;  
+    border: 1px solid #ccc; 
+}

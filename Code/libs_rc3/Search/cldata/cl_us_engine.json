@@ -1,0 +1,748 @@
+{
+    "Alaska": {
+        "anchorage": {
+            "name": "Anchorage \/ Mat-su",
+            "geo": {
+                "lat": 61.340307,
+                "lng": -149.565051
+            }
+        },
+        "fairbanks": {
+            "name": "Fairbanks",
+            "geo": {
+                "lat": 64.8377778,
+                "lng": -147.7163889
+            }
+        },
+        "kenai": {
+            "name": "Kenai Peninsula",
+            "geo": {
+                "lat": 60.5544444,
+                "lng": -151.2583333
+            }
+        },
+        "juneau": {
+            "name": "Southeast Alaska",
+            "geo": {
+                "lat": 64.2008413,
+                "lng": -149.4936733
+            }
+        }
+    },
+    "Arizona": {
+        "flagstaff": {
+            "name": "Flagstaff \/ Sedona",
+            "geo": {
+                "lat": 34.8643727,
+                "lng": -111.7664691
+            }
+        },
+        "mohave": {
+            "name": "Mohave County",
+            "geo": {
+                "lat": 35.2143346,
+                "lng": -113.7632828
+            }
+        },
+        "phoenix": {
+            "name": "Phoenix",
+            "geo": {
+                "lat": 33.4483771,
+                "lng": -112.0740373
+            }
+        },
+        "prescott": {
+            "name": "Prescott",
+            "geo": {
+                "lat": 34.5400242,
+                "lng": -112.4685025
+            }
+        },
+        "showlow": {
+            "name": "Show Low",
+            "geo": {
+                "lat": 34.2542084,
+                "lng": -110.0298327
+            }
+        },
+        "sierravista": {
+            "name": "Sierra Vista",
+            "geo": {
+                "lat": 31.5455001,
+                "lng": -110.2772856
+            }
+        },
+        "tucson": {
+            "name": "Tucson",
+            "geo": {
+                "lat": 32.2217429,
+                "lng": -110.926479
+            }
+        },
+        "yuma": {
+            "name": "Yuma",
+            "geo": {
+                "lat": 32.6926512,
+                "lng": -114.6276916
+            }
+        }
+    },
+    "California": {
+        "bakersfield": {
+            "name": "Bakersfield",
+            "geo": {
+                "lat": 35.3732921,
+                "lng": -119.0187125
+            }
+        },
+        "chico": {
+            "name": "Chico",
+            "geo": {
+                "lat": 39.7284944,
+                "lng": -121.8374777
+            }
+        },
+        "fresno": {
+            "name": "Fresno \/ Madera",
+            "geo": {
+                "lat": 36.7468422,
+                "lng": -119.7725868
+            }
+        },
+        "goldcountry": {
+            "name": "Gold Country",
+            "geo": {
+                "lat": 38.6235149,
+                "lng": -121.2457183
+            }
+        },
+        "hanford": {
+            "name": "Hanford-corcoran",
+            "geo": {
+                "lat": 36.098007,
+                "lng": -119.5604015
+            }
+        },
+        "humboldt": {
+            "name": "Humboldt County",
+            "geo": {
+                "lat": 40.7450055,
+                "lng": -123.8695086
+            }
+        },
+        "imperial": {
+            "name": "Imperial County",
+            "geo": {
+                "lat": 33.0113694,
+                "lng": -115.4733554
+            }
+        },
+        "inlandempire": {
+            "name": "Inland Empire",
+            "geo": {
+                "lat": 37.6484092,
+                "lng": -120.9005541
+            }
+        },
+        "losangeles": {
+            "name": "Los Angeles",
+            "geo": {
+                "lat": 34.0522342,
+                "lng": -118.2436849
+            }
+        },
+        "mendocino": {
+            "name": "Mendocino County",
+            "geo": {
+                "lat": 39.5500194,
+                "lng": -123.438353
+            }
+        },
+        "merced": {
+            "name": "Merced",
+            "geo": {
+                "lat": 37.3021632,
+                "lng": -120.4829677
+            }
+        },
+        "modesto": {
+            "name": "Modesto",
+            "geo": {
+                "lat": 37.6390972,
+                "lng": -120.9968782
+            }
+        },
+        "monterey": {
+            "name": "Monterey Bay",
+            "geo": {
+                "lat": 36.878192,
+                "lng": -121.947311
+            }
+        },
+        "orangecounty": {
+            "name": "Orange County",
+            "geo": {
+                "lat": 33.7174708,
+                "lng": -117.8311428
+            }
+        },
+        "palmsprings": {
+            "name": "Palm Springs",
+            "geo": {
+                "lat": 33.8302961,
+                "lng": -116.5452921
+            }
+        },
+        "redding": {
+            "name": "Redding",
+            "geo": {
+                "lat": 40.5865396,
+                "lng": -122.3916754
+            }
+        },
+        "sacramento": {
+            "name": "Sacramento",
+            "geo": {
+                "lat": 38.5815719,
+                "lng": -121.4943996
+            }
+        },
+        "sandiego": {
+            "name": "San Diego",
+            "geo": {
+                "lat": 32.715738,
+                "lng": -117.1610838
+            }
+        },
+        "sfbay": {
+            "name": "San Francisco Bay Area",
+            "geo": {
+                "lat": 37.7141454,
+                "lng": -122.25
+            }
+        },
+        "slo": {
+            "name": "San Luis Obispo",
+            "geo": {
+                "lat": 35.2827524,
+                "lng": -120.6596156
+            }
+        },
+        "santabarbara": {
+            "name": "Santa Barbara",
+            "geo": {
+                "lat": 34.4208305,
+                "lng": -119.6981901
+            }
+        },
+        "santamaria": {
+            "name": "Santa Maria",
+            "geo": {
+                "lat": 34.9530337,
+                "lng": -120.4357191
+            }
+        },
+        "siskiyou": {
+            "name": "Siskiyou County",
+            "geo": {
+                "lat": 41.7743261,
+                "lng": -122.5770126
+            }
+        },
+        "stockton": {
+            "name": "Stockton",
+            "geo": {
+                "lat": 37.9577016,
+                "lng": -121.2907796
+            }
+        },
+        "susanville": {
+            "name": "Susanville",
+            "geo": {
+                "lat": 40.4162842,
+                "lng": -120.6530063
+            }
+        },
+        "ventura": {
+            "name": "Ventura County",
+            "geo": {
+                "lat": 34.3704884,
+                "lng": -119.1390642
+            }
+        },
+        "visalia": {
+            "name": "Visalia-tulare",
+            "geo": {
+                "lat": 36.3302284,
+                "lng": -119.2920585
+            }
+        },
+        "yubasutter": {
+            "name": "Yuba-sutter",
+            "geo": {
+                "lat": 39.1630249,
+                "lng": -121.74888
+            }
+        }
+    },
+    "Florida": {
+        "daytona": {
+            "name": "Daytona Beach",
+            "geo": {
+                "lat": 29.2108147,
+                "lng": -81.0228331
+            }
+        },
+        "keys": {
+            "name": "Florida Keys",
+            "geo": {
+                "lat": 24.5557359,
+                "lng": -81.7826537
+            }
+        },
+        "fortlauderdale": {
+            "name": "Fort Lauderdale",
+            "geo": {
+                "lat": 26.1224386,
+                "lng": -80.1373174
+            }
+        },
+        "fortmyers": {
+            "name": "Ft Myers \/ SW Florida",
+            "geo": {
+                "lat": 26.530092,
+                "lng": -81.8942409
+            }
+        },
+        "gainesville": {
+            "name": "Gainesville",
+            "geo": {
+                "lat": 29.6516344,
+                "lng": -82.3248262
+            }
+        },
+        "cfl": {
+            "name": "Heartland Florida",
+            "geo": {
+                "lat": 27.3050135,
+                "lng": -81.3666804
+            }
+        },
+        "jacksonville": {
+            "name": "Jacksonville",
+            "geo": {
+                "lat": 30.3321838,
+                "lng": -81.655651
+            }
+        },
+        "lakeland": {
+            "name": "Lakeland",
+            "geo": {
+                "lat": 28.0394654,
+                "lng": -81.9498042
+            }
+        },
+        "lakecity": {
+            "name": "North Central FL",
+            "geo": {
+                "lat": 28.9402004,
+                "lng": -81.6639066
+            }
+        },
+        "ocala": {
+            "name": "Ocala",
+            "geo": {
+                "lat": 29.1871986,
+                "lng": -82.1400923
+            }
+        },
+        "okaloosa": {
+            "name": "Okaloosa \/ Walton",
+            "geo": {
+                "lat": 30.5268411,
+                "lng": -86.4995063
+            }
+        },
+        "orlando": {
+            "name": "Orlando",
+            "geo": {
+                "lat": 28.5383355,
+                "lng": -81.3792365
+            }
+        },
+        "panamacity": {
+            "name": "Panama City",
+            "geo": {
+                "lat": 30.1588129,
+                "lng": -85.6602058
+            }
+        },
+        "pensacola": {
+            "name": "Pensacola",
+            "geo": {
+                "lat": 30.421309,
+                "lng": -87.2169149
+            }
+        },
+        "sarasota": {
+            "name": "Sarasota-bradenton",
+            "geo": {
+                "lat": 27.3708599,
+                "lng": -82.546943
+            }
+        },
+        "miami": {
+            "name": "South Florida",
+            "geo": {
+                "lat": 27.6648274,
+                "lng": -81.5157535
+            }
+        },
+        "spacecoast": {
+            "name": "Space Coast",
+            "geo": {
+                "lat": 28.51383,
+                "lng": -80.799522
+            }
+        },
+        "staugustine": {
+            "name": "St Augustine",
+            "geo": {
+                "lat": 29.894722,
+                "lng": -81.314444
+            }
+        },
+        "tallahassee": {
+            "name": "Tallahassee",
+            "geo": {
+                "lat": 30.4382559,
+                "lng": -84.2807329
+            }
+        },
+        "tampa": {
+            "name": "Tampa Bay Area",
+            "geo": {
+                "lat": 28.036655,
+                "lng": -82.491252
+            }
+        },
+        "treasure": {
+            "name": "Treasure Coast",
+            "geo": {
+                "lat": 27.636385,
+                "lng": -80.51353
+            }
+        },
+        "westpalmbeach": {
+            "name": "West Palm Beach",
+            "geo": {
+                "lat": 26.7153424,
+                "lng": -80.0533746
+            }
+        }
+    },
+    "Hawaii": {
+        "honolulu": {
+            "name": "Hawaii",
+            "geo": {
+                "lat": 19.5429151,
+                "lng": -155.6658568
+            }
+        }
+    },
+    "Idaho": {
+        "boise": {
+            "name": "Boise",
+            "geo": {
+                "lat": 43.6187102,
+                "lng": -116.2146068
+            }
+        },
+        "eastidaho": {
+            "name": "East Idaho",
+            "geo": {
+                "lat": 44.0682019,
+                "lng": -114.7420408
+            }
+        },
+        "lewiston": {
+            "name": "Lewiston \/ Clarkston",
+            "geo": {
+                "lat": 46.4158596,
+                "lng": -117.012044
+            }
+        },
+        "twinfalls": {
+            "name": "Twin Falls",
+            "geo": {
+                "lat": 42.5629668,
+                "lng": -114.4608711
+            }
+        }
+    },
+    "Nevada": {
+        "elko": {
+            "name": "Elko",
+            "geo": {
+                "lat": 40.8324211,
+                "lng": -115.7631232
+            }
+        },
+        "lasvegas": {
+            "name": "Las Vegas",
+            "geo": {
+                "lat": 36.1699412,
+                "lng": -115.1398296
+            }
+        },
+        "reno": {
+            "name": "Reno \/ Tahoe",
+            "geo": {
+                "lat": 39.5180019,
+                "lng": -119.810384
+            }
+        }
+    },
+    "New Mexico": {
+        "albuquerque": {
+            "name": "Albuquerque",
+            "geo": {
+                "lat": 35.110703,
+                "lng": -106.609991
+            }
+        },
+        "clovis": {
+            "name": "Clovis \/ Portales",
+            "geo": {
+                "lat": 34.4087279,
+                "lng": -103.3353429
+            }
+        },
+        "farmington": {
+            "name": "Farmington",
+            "geo": {
+                "lat": 36.7280583,
+                "lng": -108.2186856
+            }
+        },
+        "lascruces": {
+            "name": "Las Cruces",
+            "geo": {
+                "lat": 32.3199396,
+                "lng": -106.7636538
+            }
+        },
+        "roswell": {
+            "name": "Roswell \/ Carlsbad",
+            "geo": {
+                "lat": 33.5875429,
+                "lng": -104.5112491
+            }
+        },
+        "santafe": {
+            "name": "Santa Fe \/ Taos",
+            "geo": {
+                "lat": 35.6683899,
+                "lng": -105.966231
+            }
+        }
+    },
+    "Oregon": {
+        "bend": {
+            "name": "Bend",
+            "geo": {
+                "lat": 44.0581728,
+                "lng": -121.3153096
+            }
+        },
+        "corvallis": {
+            "name": "Corvallis\/albany",
+            "geo": {
+                "lat": 44.6417833,
+                "lng": -123.1197344
+            }
+        },
+        "eastoregon": {
+            "name": "East Oregon",
+            "geo": {
+                "lat": 43.8041334,
+                "lng": -120.5542012
+            }
+        },
+        "eugene": {
+            "name": "Eugene",
+            "geo": {
+                "lat": 44.0520691,
+                "lng": -123.0867536
+            }
+        },
+        "klamath": {
+            "name": "Klamath Falls",
+            "geo": {
+                "lat": 42.224867,
+                "lng": -121.7816704
+            }
+        },
+        "medford": {
+            "name": "Medford-ashland",
+            "geo": {
+                "lat": 42.3249759,
+                "lng": -122.8577528
+            }
+        },
+        "oregoncoast": {
+            "name": "Oregon Coast",
+            "geo": {
+                "lat": 44.6170542,
+                "lng": -124.0465051
+            }
+        },
+        "portland": {
+            "name": "Portland",
+            "geo": {
+                "lat": 45.5230622,
+                "lng": -122.6764816
+            }
+        },
+        "roseburg": {
+            "name": "Roseburg",
+            "geo": {
+                "lat": 43.216505,
+                "lng": -123.3417381
+            }
+        },
+        "salem": {
+            "name": "Salem",
+            "geo": {
+                "lat": 44.9428975,
+                "lng": -123.0350963
+            }
+        }
+    },
+    "Utah": {
+        "logan": {
+            "name": "Logan",
+            "geo": {
+                "lat": 41.7369803,
+                "lng": -111.8338359
+            }
+        },
+        "ogden": {
+            "name": "Ogden-clearfield",
+            "geo": {
+                "lat": 41.1107771,
+                "lng": -112.0260538
+            }
+        },
+        "provo": {
+            "name": "Provo \/ Orem",
+            "geo": {
+                "lat": 40.2209778,
+                "lng": -111.8330106
+            }
+        },
+        "saltlakecity": {
+            "name": "Salt Lake City",
+            "geo": {
+                "lat": 40.7607793,
+                "lng": -111.8910474
+            }
+        },
+        "stgeorge": {
+            "name": "St George",
+            "geo": {
+                "lat": 37.0965278,
+                "lng": -113.5684164
+            }
+        }
+    },
+    "Washington": {
+        "bellingham": {
+            "name": "Bellingham",
+            "geo": {
+                "lat": 48.74908,
+                "lng": -122.4781473
+            }
+        },
+        "kpr": {
+            "name": "Kennewick-pasco-richland",
+            "geo": {
+                "lat": 46.3245547,
+                "lng": -119.0254257
+            }
+        },
+        "moseslake": {
+            "name": "Moses Lake",
+            "geo": {
+                "lat": 47.1301417,
+                "lng": -119.2780771
+            }
+        },
+        "olympic": {
+            "name": "Olympic Peninsula",
+            "geo": {
+                "lat": 47.750087,
+                "lng": -123.7510225
+            }
+        },
+        "pullman": {
+            "name": "Pullman \/ Moscow",
+            "geo": {
+                "lat": 46.743611,
+                "lng": -117.109444
+            }
+        },
+        "seattle": {
+            "name": "Seattle-tacoma",
+            "geo": {
+                "lat": 47.4502499,
+                "lng": -122.3088165
+            }
+        },
+        "skagit": {
+            "name": "Skagit \/ Island \/ SJI",
+            "geo": {
+                "lat": 38.9071923,
+                "lng": -77.0368707
+            }
+        },
+        "spokane": {
+            "name": "Spokane \/ Coeur D'alene",
+            "geo": {
+                "lat": 47.6504751,
+                "lng": -117.4459637
+            }
+        },
+        "wenatchee": {
+            "name": "Wenatchee",
+            "geo": {
+                "lat": 47.4234599,
+                "lng": -120.3103494
+            }
+        },
+        "yakima": {
+            "name": "Yakima",
+            "geo": {
+                "lat": 46.6020711,
+                "lng": -120.5058987
+            }
+        }
+    },
+    "Territories": {
+        "micronesia": {
+            "name": "Guam-micronesia",
+            "geo": {
+                "lat": 13.444304,
+                "lng": 144.793731
+            }
+        },
+        "puertorico": {
+            "name": "Puerto Rico",
+            "geo": null
+        },
+        "virgin": {
+            "name": "U.S. Virgin Islands",
+            "geo": null
+        }
+    }
+}

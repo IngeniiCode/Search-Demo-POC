@@ -1,0 +1,33 @@
+<div class="announcement">
+  <h3>SEARCH TOOLS UPDATE - 16 February 2015</h3>
+  <p>Announcing the latest updates to the Outspoken Ninja Search Tools</p>
+  <h3>Search Form Updates</h3>
+  <ul>
+    <li><b>Reformatted Search Form</b> -- rework of the input form, making it easier to read and use.<br><img src='updated.form.layout.png' class="annouce_img"></li>
+    <li><b>Search Zones</b> -- ability to search all across the Untied States, by 7 regional zones.<br><img src='updated.form.zones.png' class="annouce_img"></li>
+  </ul>
+  <h3>Report Format Updates</h3>
+  <ul>
+    <li><b>Reformatted Report</b> -- rework of the report to increase readability, making state and region divisions simpler to identify <br><img src='updated.report.list.png' class="annouce_img"></li>
+  </ul>
+
+  <h3>New Report Management Tools</h3>
+  <ul>
+    <li><b>Ad Counts by Owner or Dealer Sales</b> -- overview of ads, showing how many are Owner or Dealer sales. <br><img src='updated.reporting.tools.counts.png' class="annouce_img"></li>
+    <li><b>Show / Hide / Delete Items</b> -- viewing report data made simpler by added ability to Hide or even Delete classes of ad.  
+    <li><b>High / Low Prices</b> -- identify the highest and lowest prices found in the report. <br><img src='updated.reporting.tools.prices.png' class="annouce_img"></li>
+    <li><b>Price Highlighting</b> -- Clicking the High or Low link will locate those ads in the report, and highlight them for easy review<br><img src='updated.reporting.tools.highlighting.png' class="annouce_img"></li>
+  </ul>
+
+<h4>Planned for the Production Rollout in March 2015</h4>
+<ul>
+<li>User profiles</li>
+<li>Saving Reports</li>
+<li>Bookmarking Ads</li>
+<li>Blocking ads</li>
+<li>Adding exclusion filters</li>
+<li><em>.. and other exciting improvements!</em></li>
+</ul>
+
+</div>
+
